@@ -4,7 +4,6 @@ from playwright.sync_api import Page
 from components.base_component import BaseComponent
 from components.elements.button import Button
 from components.elements.icon import Icon
-from components.elements.image import Image
 from components.elements.input import Input
 from components.elements.text import Text
 

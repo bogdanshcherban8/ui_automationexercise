@@ -26,7 +26,7 @@ class BaseElement:
         expect(locator).to_have_class(class_name)
     def is_visible(self):
         locator=self.get_locator()
-        locator.is_visible()
+        return locator.is_visible()
     def wait_for(self):
         locator=self.get_locator()
         locator.wait_for(state="visible", timeout=2000)
@@ -36,3 +36,6 @@ class BaseElement:
     def hover(self):
         locator=self.get_locator()
         locator.hover()
+    def inner_text(self):
+        locator=self.get_locator()
+        return locator.inner_text().strip()
