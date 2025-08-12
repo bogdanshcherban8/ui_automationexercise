@@ -9,7 +9,7 @@ from pages.login_page.login_page import LoginPage
 from pages.start_page.start_page import StartPage
 
 
-@pytest.mark.scrollup
+@pytest.mark.scroll_up
 class TestScrollUp:
     @pytest.mark.smoke
     @pytest.mark.no_path
@@ -49,7 +49,7 @@ class TestScrollUp:
         @allure.title("Checking scroll up on cart")
         @pytest.mark.regression
         @pytest.mark.cart
-        def test_lower_panel_cart_path(self, cart_page: CartPage):
+        def test_scroll_up_cart_path(self, cart_page: CartPage):
             cart_page.visit(urljoin(settings.app_url, "login"))
             cart_page.login.check_login()
             cart_page.items.check_item()

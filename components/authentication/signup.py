@@ -1,7 +1,7 @@
 import re
 
 from faker import Faker
-from playwright.sync_api import Page, expect
+from playwright.sync_api import Page
 
 from components.base_component import BaseComponent
 from components.elements.button import Button
@@ -15,60 +15,66 @@ class Signup(BaseComponent):
     def __init__(self, page: Page):
         super().__init__(page)
         self.fake = Faker()
-        self.new_user_title = Text(page, '//*[@id="form"]/div/div/div[3]/div/h2', "New User Signup!")
-        self.name_input = Input(page, '//*[@id="form"]/div/div/div[3]/div/form/input[2]', "Name")
-        self.email_input = Input(page, '//*[@id="form"]/div/div/div[3]/div/form/input[3]', "Email Address")
-        self.already_exist_alert = Text(page, '//*[@id="form"]/div/div/div[3]/div/form/p',
+        self.new_user_title = Text(page, '//h2[normalize-space()="New User Signup!"]', "New User Signup!")
+        self.name_input = Input(page, '//*[@id="form"]//input[@data-qa="signup-name"]', "Name")
+        self.email_input = Input(page, '//*[@id="form"]//input[@data-qa="signup-email"]', "Email Address")
+        self.already_exist_alert = Text(page, '//p[normalize-space()="Email Address already exist!"]',
                                         "Email Address already exist!")
-        self.signup_button = Button(page, '//*[@id="form"]/div/div/div[3]/div/form/button', "Signup")
-        self.account_info_title = Text(page, '//*[@id="form"]/div/div/div/div/h2/b', "Enter Account Information")
-        self.title_title = Text(page, '//*[@id="form"]/div/div/div/div/form/div[1]/label', "Title")
-        self.mr_button = Button(page, '//*[@id="form"]/div/div/div/div/form/div[1]/div[1]', "Mr.")
-        self.mrs_button = Button(page, '//*[@id="form"]/div/div/div/div/form/div[1]/div[2]', "Mrs.")
-        self.name_title = Text(page, '//*[@id="form"]/div/div/div/div/form/div[2]/label', "Name *")
+        self.signup_button = Button(page, '//*[@id="form"]//button[@data-qa="signup-button"]', "Signup")
+        self.account_info_title = Text(page, '//b[normalize-space()="Enter Account Information"]',
+                                       "Enter Account Information")
+        self.title_title = Text(page, '//*[normalize-space()="Title"]', "Title")
+        self.mr_button = Button(page, '//*[@id="form"]//label[@for="id_gender1"]', "Mr.")
+        self.mrs_button = Button(page, '//*[@id="form"]//label[@for="id_gender2"]', "Mrs.")
+        self.name_title = Text(page, '//label[normalize-space()="Name *"]', "Name *")
         self.edit_name = Input(page, '//*[@id="name"]', "Name")
-        self.edit_email_title = Text(page, '//*[@id="form"]/div/div/div/div/form/div[3]/label', "Email *")
+        self.edit_email_title = Text(page, '//label[normalize-space()="Email *"]', "Email *")
         self.no_edit_email = Button(page, '//*[@id="email"]', "Disabled Email")
-        self.password_title = Text(page, '//*[@id="form"]/div/div/div/div/form/div[4]/label', "Password *")
-        self.password_input = Input(page, '//*[@id="password"]', "Password *")
-        self.date_of_birth_title = Text(page, '//*[@id="form"]/div/div/div/div/form/div[5]/label', "Date of Birth")
+        self.password_title = Text(page, '//label[normalize-space()="Password *"]', "Password *")
+        self.password_input = Input(page, '//*[@id="password"]', "Password")
+        self.date_of_birth_title = Text(page, '//label[normalize-space()="Date of Birth"]', "Date of Birth")
         self.day_list = List(page, '//*[@id="days"]', "Day")
         self.month_list = List(page, '//*[@id="months"]', "Month")
         self.year_list = List(page, '//*[@id="years"]', "Year")
         self.news_button = Button(page, '//*[@id="newsletter"]', "newsletter")
-        self.news_title = Text(page, '//*[@id="form"]/div/div/div/div/form/div[6]/label', "Sign up for our newsletter!")
+        self.news_title = Text(page, '//label[normalize-space()="Sign up for our newsletter!"]',
+                               "Sign up for our newsletter!")
         self.offers_button = Button(page, '//*[@id="optin"]', "optin")
-        self.offers_title = Text(page, '//*[@id="form"]/div/div/div/div/form/div[7]/label',
+        self.offers_title = Text(page, '//label[normalize-space()="Receive special offers from our partners!"]',
                                  "Receive special offers from our partners!")
-        self.address_info_title = Text(page, '//*[@id="form"]/div/div/div/div/form/h2/b', "Address Information")
-        self.first_name_title = Text(page, '//*[@id="form"]/div/div/div/div/form/p[1]/label', "First name *")
+        self.address_info_title = Text(page, '//b[normalize-space()="Address Information"]', "Address Information")
+        self.first_name_title = Text(page, '//label[normalize-space()="First name *"]', "First name *")
         self.first_name_input = Input(page, '//*[@id="first_name"]', "First name input")
-        self.last_name_title = Text(page, '//*[@id="form"]/div/div/div/div/form/p[2]/label', "Last name *")
+        self.last_name_title = Text(page, '//label[normalize-space()="Last name *"]', "Last name *")
         self.last_name_input = Input(page, '//*[@id="last_name"]', "Last name input")
-        self.company_title = Text(page, '//*[@id="form"]/div/div/div/div/form/p[3]/label', "Company")
+        self.company_title = Text(page, '//label[normalize-space()="Company"]', "Company")
         self.company_input = Input(page, '//*[@id="company"]', "Company input")
-        self.address_title = Text(page, '//*[@id="form"]/div/div/div/div/form/p[4]/label',
+        self.address_title = Text(page,
+                                  '//label[normalize-space()="Address * (Street address, P.O. Box, Company name, etc.)"]',
                                   "Address * (Street address, P.O. Box, Company name, etc.)")
         self.address_input = Input(page, '//*[@id="address1"]', "Address input")
-        self.address_2_title = Text(page, '//*[@id="form"]/div/div/div/div/form/p[5]/label', "Address 2")
+        self.address_2_title = Text(page, '//label[normalize-space()="Address 2"]', "Address 2")
         self.address_2_input = Input(page, '//*[@id="address2"]', "Address 2 input")
-        self.country_title = Text(page, '//*[@id="form"]/div/div/div/div/form/p[6]/label', "Country *")
+        self.country_title = Text(page, '//label[normalize-space()="Country *"]', "Country *")
         self.country_list = List(page, '//*[@id="country"]', "Country list")
-        self.state_title = Text(page, '//*[@id="form"]/div/div/div/div/form/p[7]/label', "State *")
+        self.state_title = Text(page, '//label[normalize-space()="State *"]', "State *")
         self.state_input = Input(page, '//*[@id="state"]', "State input")
-        self.city_title = Text(page, '//*[@id="form"]/div/div/div/div/form/p[8]/label', "City *")
+        self.city_title = Text(page, '//label[normalize-space()="City *"]', "City *")
         self.city_input = Input(page, '//*[@id="city"]', "City input")
-        self.zipcode_title = Text(page, '//*[@id="form"]/div/div/div/div/form/p[9]/label', "Zipcode *")
+        self.zipcode_title = Text(page, '//label[normalize-space()="Zipcode *"]', "Zipcode *")
         self.zipcode_input = Input(page, '//*[@id="zipcode"]', "Zipcode input")
-        self.mobile_number_title = Text(page, '//*[@id="form"]/div/div/div/div/form/p[10]/label', "Mobile Number *")
+        self.mobile_number_title = Text(page, '//label[normalize-space()="Mobile Number *"]', "Mobile Number *")
         self.mobile_number_input = Input(page, '//*[@id="mobile_number"]', "Mobile Number input")
-        self.create_account_button = Button(page, '//*[@id="form"]/div/div/div/div/form/button', "Create Account")
-        self.account_created_title = Text(page, '//*[@id="form"]/div/div/div/h2/b', "Account Created!")
-        self.congratulations_text = Text(page, '//*[@id="form"]/div/div/div/p[1]',
-                                         "Congratulations! Your new account has been successfully created!")
-        self.you_can_text = Text(page, '//*[@id="form"]/div/div/div/p[2]',
-                                 "You can now take advantage of member privileges to enhance your online shopping experience with us.")
-        self.continue_link = Link(page, '//*[@id="form"]/div/div/div/div/a', "Continue")
+        self.create_account_button = Button(page, '//*[@id="form"]//button[@data-qa="create-account"]',
+                                            "Create Account")
+        self.account_created_title = Text(page, '//b[normalize-space()="Account Created!"]', "Account Created!")
+        self.congratulations_text = Text(page,
+                                         '//p[normalize-space()="Congratulations! Your new account has been successfully created!"]',
+                                         "Congratulations!")
+        self.you_can_text = Text(page,
+                                 '//p[normalize-space()="You can now take advantage of member privileges to enhance your online shopping experience with us."]',
+                                 "You can now...")
+        self.continue_link = Link(page, '//*[@id="form"]//a[@data-qa="continue-button"]', "Continue")
         self.name = None
         self.name_final = None
         self.email = None

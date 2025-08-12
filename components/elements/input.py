@@ -1,4 +1,4 @@
-from playwright.sync_api import expect
+
 
 from components.elements.base_element import BaseElement
 
@@ -10,3 +10,6 @@ class Input(BaseElement):
     def clear(self):
         locator=self.get_locator()
         locator.clear()
+    def press(self, text:str):
+        locator=self.get_locator()
+        locator.press(text)

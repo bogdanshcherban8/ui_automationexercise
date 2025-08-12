@@ -2,8 +2,10 @@ import pytest
 from playwright.sync_api import Page
 
 from fixtures.browsers import browser_page
+from pages.api_cases_page.api_cases_page import ApiCasesPage
 from pages.cart_page.cart_page import CartPage
 from pages.login_page.login_page import LoginPage
+from pages.products_page.products_page import ProductsPage
 from pages.start_page.start_page import StartPage
 
 
@@ -20,3 +22,10 @@ def login_page(browser_page: Page) -> LoginPage:
 @pytest.fixture
 def cart_page(browser_page: Page) -> CartPage:
     return CartPage(page=browser_page)
+
+@pytest.fixture
+def products_page(browser_page: Page) -> ProductsPage:
+    return ProductsPage(page=browser_page)
+@pytest.fixture
+def api_cases_page(browser_page: Page) -> ApiCasesPage:
+    return ApiCasesPage(page=browser_page)

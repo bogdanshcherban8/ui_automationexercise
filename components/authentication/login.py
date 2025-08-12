@@ -13,12 +13,12 @@ class Login(BaseComponent):
     def __init__(self, page:Page):
         super().__init__(page)
         self.fake=Faker()
-        self.login_title = Text(page, '//*[@id="form"]/div/div/div[1]/div/h2', "Login to your account")
-        self.email_input = Input(page, '//*[@id="form"]/div/div/div[1]/div/form/input[2]', "Email Address")
-        self.password_input=Input(page, '//*[@id="form"]/div/div/div[1]/div/form/input[3]', "Password")
-        self.wrong_data_alert = Text(page, '//*[@id="form"]/div/div/div[1]/div/form/p',
+        self.login_title = Text(page, '//h2[normalize-space()="Login to your account"]', "Login to your account")
+        self.email_input = Input(page, '//*[@id="form"]//input[@data-qa="login-email"]', "Email Address")
+        self.password_input=Input(page, '//*[@id="form"]//input[@data-qa="login-password"]', "Password")
+        self.wrong_data_alert = Text(page, '//p[normalize-space()="Your email or password is incorrect!"]',
                                         "Your email or password is incorrect!")
-        self.login_button = Button(page, '//*[@id="form"]/div/div/div[1]/div/form/button', "Login")
+        self.login_button = Button(page, '//*[@id="form"]//button[@data-qa="login-button"]', "Login")
     def check_login(self):
         self.check_url('login')
         self.login_title.to_be_visible()

@@ -39,3 +39,6 @@ class BaseElement:
     def inner_text(self):
         locator=self.get_locator()
         return locator.inner_text().strip()
+    def to_contain_text(self, text:str):
+        locator=self.get_locator()
+        expect(locator).to_contain_text(text)

@@ -12,13 +12,13 @@ class SubscriptionCopyright(BaseComponent):
     def __init__(self, page: Page):
         super().__init__(page)
         self.fake = Faker()
-        self.subscription_title = Text(page, '//*[@id="footer"]/div[1]/div/div/div[2]/div/h2', "Subscription")
+        self.subscription_title = Text(page, '//h2[normalize-space()="Subscription"]', "Subscription")
         self.email_input = Input(page, '//*[@id="susbscribe_email"]', "Your email address")
         self.subscribe_button = Button(page, '//*[@id="subscribe"]', "Subscribe")
         self.subscribe_button_icon = Icon(page, '//*[@id="subscribe"]/i', "fa fa-arrow-circle-o-right")
-        self.two_low_paragraphs = Text(page, '//*[@id="footer"]/div[1]/div/div/div[2]/div/form/p',
-                                       "Get the most recent updates from our site and be updated your self...")
-        self.copyright_text=Text(page, '//*[@id="footer"]/div[2]/div/div/p', "Copyright © 2021 All rights reserved")
+        self.two_low_paragraphs = Text(page, '//p[normalize-space()="Get the most recent updates from our site and be updated your self..."]',
+                                       "Get the most")
+        self.copyright_text=Text(page, '//p[normalize-space()="Copyright © 2021 All rights reserved"]', "Copyright © 2021 All rights reserved")
         self.subscribe_alert=Text(page, '//*[@id="success-subscribe"]/div', "You have been successfully subscribed!")
     def check_subscription_copyright(self):
         self.subscription_title.to_be_visible()
