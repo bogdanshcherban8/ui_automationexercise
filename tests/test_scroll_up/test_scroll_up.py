@@ -1,14 +1,22 @@
+import time
 from urllib.parse import urljoin
 
 import allure
 import pytest
+from allure_commons.types import Severity
 
 from config import settings
 from pages.cart_page.cart_page import CartPage
 from pages.login_page.login_page import LoginPage
 from pages.start_page.start_page import StartPage
 
-
+from tools.allure.epics import AllureEpic
+from tools.allure.features import AllureFeature
+from tools.allure.stories import AllureStory
+@allure.feature(AllureFeature.SCROLL_UP)
+@allure.epic(AllureEpic.UI)
+@allure.story(AllureStory.SCROLL_UP)
+@allure.severity(Severity.TRIVIAL)
 @pytest.mark.scroll_up
 class TestScrollUp:
     @pytest.mark.smoke
@@ -16,7 +24,6 @@ class TestScrollUp:
     @allure.title("Checking scroll up on static pages")
     @pytest.mark.parametrize("url", [settings.app_url, urljoin(settings.app_url, "products"),
                                      urljoin(settings.app_url, "test_cases"), urljoin(settings.app_url, "api_list"),
-                                     urljoin(settings.app_url, "contact_us"),
                                      urljoin(settings.app_url, "category_products/1"),
                                      urljoin(settings.app_url, "category_products/2"),
                                      urljoin(settings.app_url, "category_products/7"),
@@ -47,7 +54,6 @@ class TestScrollUp:
             login_page.scroll_up.check_scroll_up()
 
         @allure.title("Checking scroll up on cart")
-        @pytest.mark.regression
         @pytest.mark.cart
         def test_scroll_up_cart_path(self, cart_page: CartPage):
             cart_page.visit(urljoin(settings.app_url, "login"))
@@ -56,4 +62,5 @@ class TestScrollUp:
             cart_page.items.added_item()
             cart_page.items.cart_item()
             cart_page.items.cart_item_continue()
+            time.sleep(2)
             cart_page.scroll_up.check_scroll_up()

@@ -1,3 +1,6 @@
+import time
+
+import allure
 from playwright.sync_api import Page
 
 from components.base_component import BaseComponent
@@ -10,8 +13,10 @@ class ScrollUp(BaseComponent):
         super().__init__(page)
         self.scroll_link=Link(page, '//*[@id="scrollUp"]', "scrollUp")
         self.scroll_icon=Icon(page, '//*[@id="scrollUp"]/i', "fa fa-angle-up")
+
+    @allure.step("Checking scroll up function")
     def check_scroll_up(self):
-        self.page.evaluate(f'window.scrollBy(0, 500)')
+        self.page.evaluate(f'window.scrollBy(0, 6000)')
         self.scroll_link.to_be_visible()
         self.scroll_link.to_have_attribute("href", "#top")
         self.scroll_icon.to_be_visible()

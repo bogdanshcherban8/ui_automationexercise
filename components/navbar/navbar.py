@@ -1,3 +1,4 @@
+import allure
 from playwright.sync_api import Page
 
 from components.base_component import BaseComponent
@@ -6,6 +7,7 @@ from components.elements.icon import Icon
 from components.elements.image import Image
 from components.elements.link import Link
 from components.elements.text import Text
+from config import settings
 
 
 class Navbar(BaseComponent):
@@ -62,6 +64,7 @@ class Navbar(BaseComponent):
                                          "You can create new account")
         self.continue_link = Link(page, '//a[normalize-space()="Continue"]', "Continue")
 
+    @allure.step("Checking navbar on static pages")
     def check_navbar_no_login(self):
         self.logo_image.to_be_visible()
         self.logo_image.to_have_attribute("src", "/static/images/home/logo.png")
@@ -100,6 +103,8 @@ class Navbar(BaseComponent):
         self.contact_us_link.to_be_visible()
         self.contact_us_link.to_have_text("Contact us")
         self.contact_us_link.to_have_attribute("href", "/contact_us")
+
+    @allure.step("Checking signup / login button")
     def check_signup(self):
         self.signup_icon.to_be_visible()
         self.signup_icon.to_have_class("fa fa-lock")
@@ -107,6 +112,7 @@ class Navbar(BaseComponent):
         self.signup_link.to_have_text("Signup / Login")
         self.signup_link.to_have_attribute("href", "/login")
 
+    @allure.step("Checking navbar with authorized user")
     def check_navbar_with_login(self):
         self.check_navbar_no_login()
         self.delete_account_icon.to_be_visible()
@@ -123,12 +129,13 @@ class Navbar(BaseComponent):
         self.logged_in_as_icon.to_have_class("fa fa-user")
         self.logged_in_as_text.to_be_visible()
 
+    @allure.step("Checking logout function")
     def check_navbar_logout_login(self):
         self.logout_link.click()
         self.check_navbar_no_login()
         self.check_signup()
 
-
+    @allure.step("Checking delete account function")
     def check_navbar_delete_login(self):
         self.delete_account_link.click()
         self.account_deleted_title.to_be_visible()

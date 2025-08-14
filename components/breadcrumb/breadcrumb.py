@@ -1,3 +1,4 @@
+import allure
 from playwright.sync_api import Page
 
 from components.base_component import BaseComponent
@@ -11,6 +12,7 @@ class Breadcrumb(BaseComponent):
         self.products_breadcrumb=Link(page, '//section//a[@href="/products"]', "Products")
         self.breadcrumb_path=Text(page, '//section//li[@class="active"]', "Women > Dress")
         self.cart_breadcrumb=Link(page, '//section//a[@href="/"]', "Home")
+    @allure.step("Checking breadcrumb")
     def check_breadcrumb_products(self, path_text:str):
         if self.cart_breadcrumb.is_visible():
             self.cart_breadcrumb.to_have_text("Home")

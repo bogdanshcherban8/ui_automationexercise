@@ -2,13 +2,20 @@ from urllib.parse import urljoin
 
 import allure
 import pytest
+from allure_commons.types import Severity
 
 from config import settings
 from pages.cart_page.cart_page import CartPage
 from pages.login_page.login_page import LoginPage
 from pages.start_page.start_page import StartPage
 
-
+from tools.allure.epics import AllureEpic
+from tools.allure.features import AllureFeature
+from tools.allure.stories import AllureStory
+@allure.feature(AllureFeature.NAVBAR)
+@allure.epic(AllureEpic.UI)
+@allure.story(AllureStory.NAVBAR)
+@allure.severity(Severity.NORMAL)
 @pytest.mark.navbar
 class TestNavbar:
     @allure.title("Checking navbar on static pages")

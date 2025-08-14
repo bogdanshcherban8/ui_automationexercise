@@ -1,5 +1,6 @@
 import re
 
+import allure
 from faker import Faker
 from playwright.sync_api import Page
 
@@ -99,6 +100,7 @@ class Items(BaseComponent):
         self.invoice_link = Link(page, '//a[normalize-space()="Download Invoice"]', "Download Invoice")
         self.continue_link = Link(page, '//a[normalize-space()="Continue"]', "Continue")
 
+    @allure.step("Checking item properties")
     def check_item(self):
         self.item_image.to_be_visible()
         self.item_image.to_have_attribute("src", "/get_product_picture/1")
@@ -125,6 +127,7 @@ class Items(BaseComponent):
         self.overlay_shopping_cart.to_be_visible()
         self.overlay_shopping_cart.to_have_class("fa fa-shopping-cart")
 
+    @allure.step("Checking added item functionality")
     def added_item(self):
         self.overlay_add_to_cart.click()
         self.icon_box.to_be_visible()
@@ -143,6 +146,7 @@ class Items(BaseComponent):
         self.view_cart_link.click()
         self.check_url("view_cart")
 
+    @allure.step("Checking item in the cart")
     def cart_item(self):
         self.item_title_box.to_be_visible()
         self.item_title_box.to_have_text("Item")
@@ -176,6 +180,7 @@ class Items(BaseComponent):
         self.item_total_text.to_be_visible()
         self.item_total_text.to_have_text("Rs. 500")
 
+    @allure.step("Clicking continue in cart page")
     def cart_item_continue(self):
         self.item_delete_button.to_be_visible()
         self.item_delete_button.to_be_enabled()
@@ -186,6 +191,7 @@ class Items(BaseComponent):
         self.proceed_button.to_be_enabled()
         self.proceed_button.click()
 
+    @allure.step("Checking checkout page functionality")
     def check_checkout(self):
         self.check_url("checkout")
         self.address_details_title.to_be_visible()
@@ -211,6 +217,7 @@ class Items(BaseComponent):
         self.place_order_link.to_have_attribute("href", "/payment")
         self.place_order_link.click()
 
+    @allure.step("Checking payment page functionality")
     def check_payment(self):
         self.check_url("payment")
         self.payment_title.to_be_visible()
@@ -243,6 +250,7 @@ class Items(BaseComponent):
         self.pay_order_button.to_be_enabled()
         self.pay_order_button.click()
 
+    @allure.step("Checking that payment is done")
     def payment_done(self):
         self.order_placed_title.to_be_visible()
         self.order_placed_title.to_have_text("Order Placed!")

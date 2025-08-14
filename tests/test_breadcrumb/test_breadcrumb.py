@@ -2,6 +2,7 @@ from urllib.parse import urljoin
 
 import allure
 import pytest
+from allure_commons.types import Severity
 
 from config import settings
 from pages.cart_page.cart_page import CartPage
@@ -28,6 +29,13 @@ urls = [urljoin(settings.app_url, "category_products/1"),
 url_cart=[urljoin(settings.app_url, "view_cart"), urljoin(settings.app_url, "checkout"), urljoin(settings.app_url, "payment")]
 cart_text=["Shopping Cart", "Checkout", "Payment"]
 
+from tools.allure.epics import AllureEpic
+from tools.allure.features import AllureFeature
+from tools.allure.stories import AllureStory
+@allure.feature(AllureFeature.BREADCRUMB)
+@allure.epic(AllureEpic.UI)
+@allure.severity(Severity.TRIVIAL)
+@allure.story(AllureStory.BREADCRUMB)
 @pytest.mark.breadcrumb
 class TestBreadcrumb:
     @pytest.mark.smoke

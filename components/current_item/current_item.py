@@ -1,3 +1,4 @@
+import allure
 from faker import Faker
 from playwright.sync_api import Page
 
@@ -35,6 +36,7 @@ class CurrentItem(BaseComponent):
         self.thank_you_review = Text(page, '//span[normalize-space()="Thank you for your review."]',
                                      "Thank you for your review.")
 
+    @allure.step("Checking chosen item page")
     def check_current_item(self):
         self.image_current_item.to_be_visible()
         self.image_current_item.to_have_attribute("src", "/get_product_picture/1")
@@ -64,6 +66,7 @@ class CurrentItem(BaseComponent):
         self.brand_text.to_be_visible()
         self.brand_text.to_have_text("Brand: Polo")
 
+    @allure.step("Checking review block")
     def check_review_item(self):
         self.write_review_link.to_be_visible()
         self.write_review_link.to_have_text("Write Your Review")

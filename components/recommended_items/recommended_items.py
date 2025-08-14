@@ -1,3 +1,4 @@
+import allure
 from playwright.sync_api import Page
 
 from components.base_component import BaseComponent
@@ -23,8 +24,8 @@ class RecommendedItems(BaseComponent):
         self.recommended_add_to_cart_icon = Icon(page,
                                                  '//*[@id="recommended-item-carousel"]/div/div[2]/div[1]/div/div/div/a/i',
                                                  "fa fa-shopping-cart")
-    '//*[@id="recommended-item-carousel"]/div/div[1]/div[1]/div/div/div/h2'
-    '//*[@id="recommended-item-carousel"]/div/div[1]/div[2]/div/div/div/h2'
+
+    @allure.step("Checking recommended items block")
     def check_recommended_items(self):
         self.recommended_items_text.to_be_visible()
         self.recommended_items_text.to_have_text("recommended items")

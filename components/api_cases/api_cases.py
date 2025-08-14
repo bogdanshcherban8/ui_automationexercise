@@ -3,7 +3,7 @@ from playwright.sync_api import Page
 from components.base_component import BaseComponent
 from components.elements.link import Link
 from components.elements.text import Text
-
+import allure
 
 class ApiCases(BaseComponent):
     def __init__(self, page: Page):
@@ -21,7 +21,7 @@ class ApiCases(BaseComponent):
         self.text_3 = Text(page, '//li[normalize-space()="If you think, this website should cover up any particular feature, kindly share with us at feedback@automationexercise.com. We will work on that part. Your feedback matters a lot."]',
                            "If you think...")
         self.link_1 = Link(page, '//a[normalize-space()="feedback@automationexercise.com"]', "feedback@automationexercise.com")
-
+    @allure.step("Checking api and test cases page functionality")
     def check_api_cases(self, title_text: str, description: str, collapse: str, item: str):
         self.main_title.to_be_visible()
         self.main_title.to_have_text(title_text)

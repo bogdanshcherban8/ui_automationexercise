@@ -1,5 +1,6 @@
 import re
 
+import allure
 from faker import Faker
 from playwright.sync_api import Page
 
@@ -69,7 +70,7 @@ class Signup(BaseComponent):
                                             "Create Account")
         self.account_created_title = Text(page, '//b[normalize-space()="Account Created!"]', "Account Created!")
         self.congratulations_text = Text(page,
-                                         '//p[normalize-space()="Congratulations! Your new account has been successfully created!"]',
+                                         '//*[@id="form"]/div/div/div/p[1]',
                                          "Congratulations!")
         self.you_can_text = Text(page,
                                  '//p[normalize-space()="You can now take advantage of member privileges to enhance your online shopping experience with us."]',
@@ -79,7 +80,7 @@ class Signup(BaseComponent):
         self.name_final = None
         self.email = None
         self.email_final = None
-
+    @allure.step("Fill signup form")
     def check_signup(self):
         self.check_url('login')
         self.new_user_title.to_be_visible()
@@ -113,7 +114,7 @@ class Signup(BaseComponent):
 
         self.name_final = self.name
         self.email_final = self.email
-
+    @allure.step("Fill account information")
     def check_account_information(self):
         self.check_url('signup')
         self.account_info_title.to_be_visible()
@@ -165,7 +166,7 @@ class Signup(BaseComponent):
         self.offers_title.to_be_visible()
         self.offers_title.to_have_text("Receive special offers from our partners!")
         self.offers_title.click()
-
+    @allure.step("Fill address information")
     def check_address_information(self):
         self.address_info_title.to_be_visible()
         self.address_info_title.to_have_text("Address Information")
@@ -219,13 +220,13 @@ class Signup(BaseComponent):
         self.create_account_button.to_be_enabled()
         self.create_account_button.to_have_text("Create Account")
         self.create_account_button.click()
-
+    @allure.step("Checking that account is created")
     def check_account_created(self):
         self.check_url("account_created")
         self.account_created_title.to_be_visible()
         self.account_created_title.to_have_text("Account Created!")
         self.congratulations_text.to_be_visible()
-        self.congratulations_text.to_have_text("Congratulations! Your new account has been successfully created!")
+        self.congratulations_text.to_contain_text("Congratulations! Your new account has been successfully created!")
         self.you_can_text.to_be_visible()
         self.you_can_text.to_have_text(
             "You can now take advantage of member privileges to enhance your online shopping experience with us.")

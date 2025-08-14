@@ -1,5 +1,6 @@
 import re
 
+import allure
 from playwright.sync_api import Page
 
 from components.base_component import BaseComponent
@@ -23,12 +24,12 @@ class Brands(BaseComponent):
         self.brands_biba_button = Button(page,
                                          '//a[@href="/brand_products/Biba"]', "Biba")
         self.brands_title = Text(page, '//h2[@class="title text-center"]', "Brand - ... products")
-        self.brands_item = Text(page, '//p[@class="overlay-content"]', "Item")
-
+        self.brands_item = Text(page, '//div[2]/div/div[2]//div[@class="productinfo text-center"]/p', "Item")
+    @allure.step("Checking brands title")
     def check_brands_title(self):
         self.brands_category_text.to_be_visible()
         self.brands_category_text.to_have_text("Brands")
-
+    @allure.step("Checking brands categories")
     def check_brands(self):
         self.brands_polo_button.to_be_visible()
         self.brands_polo_button.to_have_text("(6)Polo")
@@ -54,7 +55,7 @@ class Brands(BaseComponent):
         self.brands_biba_button.to_be_visible()
         self.brands_biba_button.to_have_text("(5)Biba")
         self.brands_biba_button.to_have_attribute("href", "/brand_products/Biba")
-
+    @allure.step("Checking one brand page")
     def check_chosen_brand(self, brand_button, expected_title, expected_item, expected_url):
         brand_button.click()
         self.brands_title.to_be_visible()

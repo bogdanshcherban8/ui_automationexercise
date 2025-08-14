@@ -2,13 +2,19 @@ from urllib.parse import urljoin
 
 import allure
 import pytest
+from allure_commons.types import Severity
 
 from config import settings
 from pages.cart_page.cart_page import CartPage
 from pages.login_page.login_page import LoginPage
 from pages.start_page.start_page import StartPage
-
-
+from tools.allure.epics import AllureEpic
+from tools.allure.features import AllureFeature
+from tools.allure.stories import AllureStory
+@allure.feature(AllureFeature.LOWER_PANEL)
+@allure.epic(AllureEpic.UI)
+@allure.story(AllureStory.LOWER_PANEL)
+@allure.severity(Severity.TRIVIAL)
 @pytest.mark.footer
 class TestLowerPanel:
     @allure.title("Checking lower panel on static pages")
@@ -47,7 +53,6 @@ class TestLowerPanel:
             login_page.signup.check_signup()
             login_page.subscription_copyright.check_subscription_copyright()
             login_page.signup.check_account_information()
-            login_page.subscription_copyright.check_subscription_copyright()
             login_page.signup.check_address_information()
             login_page.subscription_copyright.check_subscription_copyright()
             login_page.signup.check_account_created()

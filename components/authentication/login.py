@@ -1,5 +1,6 @@
 import re
 
+import allure
 from faker import Faker
 from playwright.sync_api import Page
 
@@ -7,6 +8,7 @@ from components.base_component import BaseComponent
 from components.elements.button import Button
 from components.elements.input import Input
 from components.elements.text import Text
+from config import settings
 
 
 class Login(BaseComponent):
@@ -19,6 +21,7 @@ class Login(BaseComponent):
         self.wrong_data_alert = Text(page, '//p[normalize-space()="Your email or password is incorrect!"]',
                                         "Your email or password is incorrect!")
         self.login_button = Button(page, '//*[@id="form"]//button[@data-qa="login-button"]', "Login")
+    @allure.step("Fill login form")
     def check_login(self):
         self.check_url('login')
         self.login_title.to_be_visible()
@@ -42,8 +45,8 @@ class Login(BaseComponent):
             pass
 
         if alert_visible:
-            self.email_input.fill("32@32")
-            self.password_input.fill("32")
+            self.email_input.fill(settings.test_user.email)
+            self.password_input.fill(settings.test_user.password)
             self.login_button.click()
         self.check_url("")
 

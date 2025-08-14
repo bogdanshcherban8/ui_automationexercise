@@ -1,3 +1,4 @@
+import allure
 from faker import Faker
 from playwright.sync_api import Page
 
@@ -20,6 +21,8 @@ class SubscriptionCopyright(BaseComponent):
                                        "Get the most")
         self.copyright_text=Text(page, '//p[normalize-space()="Copyright © 2021 All rights reserved"]', "Copyright © 2021 All rights reserved")
         self.subscribe_alert=Text(page, '//*[@id="success-subscribe"]/div', "You have been successfully subscribed!")
+
+    @allure.step("Checking subscription function")
     def check_subscription_copyright(self):
         self.subscription_title.to_be_visible()
         self.subscription_title.to_have_text("Subscription")

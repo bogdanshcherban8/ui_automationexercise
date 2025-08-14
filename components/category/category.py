@@ -1,5 +1,6 @@
 import re
 
+import allure
 from playwright.sync_api import Page
 
 from components.base_component import BaseComponent
@@ -29,10 +30,11 @@ class Category(BaseComponent):
         self.kids_tops_shirts_button = Button(page, '//*[@id="Kids"]/div/ul/li[2]/a', "Tops & Shirts ")
         self.item_products_text=Text(page, '/html/body/section/div/div[2]/div[2]/div/h2', "... - ... Products")
         self.item_check=Text(page, '/html/body/section/div/div[2]/div[2]/div/div[2]/div/div[1]/div[1]/p', "Item")
+    @allure.step("Checking category title")
     def check_category_title(self):
         self.category_text.to_be_visible()
         self.category_text.to_have_text("Category")
-
+    @allure.step("Checking women category block")
     def check_category_women(self):
         self.women_category_button.to_be_visible()
         self.women_category_button.to_have_text("Women")
@@ -49,7 +51,7 @@ class Category(BaseComponent):
         self.women_saree_button.to_be_visible()
         self.women_saree_button.to_have_text("Saree")
         self.women_saree_button.to_have_attribute("href", "/category_products/7")
-
+    @allure.step("Checking men category block")
     def check_category_men(self):
         self.men_category_button.to_be_visible()
         self.men_category_button.to_have_text("Men")
@@ -63,7 +65,7 @@ class Category(BaseComponent):
         self.men_jeans_button.to_be_visible()
         self.men_jeans_button.to_have_text("Jeans")
         self.men_jeans_button.to_have_attribute("href", "/category_products/6")
-
+    @allure.step("Checking kids category block")
     def check_category_kids(self):
         self.kids_category_button.to_be_visible()
         self.kids_category_button.to_have_text("Kids")
@@ -78,8 +80,7 @@ class Category(BaseComponent):
         self.kids_tops_shirts_button.to_have_text("Tops & Shirts ")
         self.kids_tops_shirts_button.to_have_attribute("href", "/category_products/5")
 
-
-
+    @allure.step("Checking one category page")
     def check_chosen_category(self, category_button, sub_button, expected_title, expected_item, expected_url):
         category_button.click()
         sub_button.click()

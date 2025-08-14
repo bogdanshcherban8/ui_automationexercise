@@ -1,6 +1,8 @@
 from urllib.parse import urljoin
 import allure
 import pytest
+from allure_commons.types import Severity
+
 from config import settings
 from pages.products_page.products_page import ProductsPage
 
@@ -29,11 +31,17 @@ brands_data = [("brands_polo_button", "Brand - Polo Products", "Blue Top", "bran
                ("brands_kookie_button", "Brand - Kookie Kids Products", "Full Sleeves Top Cherry - Pink",
                 "brand_products/Kookie%20Kids"), ("brands_biba_button", "Brand - Biba Products", "Blue Cotton Indie Mickey Dress", "brand_products/Biba")]
 
-
+from tools.allure.epics import AllureEpic
+from tools.allure.features import AllureFeature
+from tools.allure.stories import AllureStory
+@allure.feature(AllureFeature.CHOSEN_CATEGORY)
+@allure.epic(AllureEpic.UI)
+@allure.severity(Severity.MINOR)
 @pytest.mark.smoke
 @pytest.mark.no_path
 @pytest.mark.parametrize("url", [settings.app_url, urljoin(settings.app_url, "products")])
 class TestChosen:
+    @allure.story(AllureStory.CHOSEN_CATEGORY)
     @pytest.mark.chosen_category
     @pytest.mark.parametrize("cat_btn, subcat_btn, expected_title, expected_product, expected_url", category_data)
     @allure.title("Checking chosen category on static pages")
@@ -49,7 +57,7 @@ class TestChosen:
             expected_product,
             expected_url
         )
-
+    @allure.story(AllureStory.CHOSEN_BRAND)
     @pytest.mark.parametrize("cat_btn, expected_title, expected_product, expected_url", brands_data)
     @pytest.mark.chosen_brand
     @allure.title("Checking chosen brand on static pages")

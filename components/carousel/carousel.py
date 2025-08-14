@@ -1,3 +1,4 @@
+import allure
 from playwright.sync_api import Page
 
 from components.base_component import BaseComponent
@@ -27,7 +28,7 @@ class Carousel(BaseComponent):
         self.right_button = Button(page, '//a[@class="right control-carousel hidden-xs"]', "Right button")
         self.image = Image(page, '//div[@class="item active"]//img[@class="girl img-responsive"]', "image")
         self.features_items = Text(page, '//h2[normalize-space()="Features Items"]', "Features Items")
-
+    @allure.step("Checking carousel block")
     def check_carousel_block(self):
         self.automation_text.to_be_visible()
         self.automation_text.to_have_text("AutomationExercise")
@@ -45,7 +46,7 @@ class Carousel(BaseComponent):
         self.api_list_button.to_have_text("APIs list for practice")
         self.api_list_button.to_be_enabled()
         self.three_low_buttons.to_be_visible()
-
+    @allure.step("Checking carousel functionality")
     def check_carousel(self):
         self.check_carousel_block()
         self.image.to_be_visible()

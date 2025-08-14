@@ -4,6 +4,7 @@ from playwright.sync_api import Page
 from fixtures.browsers import browser_page
 from pages.api_cases_page.api_cases_page import ApiCasesPage
 from pages.cart_page.cart_page import CartPage
+from pages.contact_us.contact_us import ContactUsPage
 from pages.login_page.login_page import LoginPage
 from pages.products_page.products_page import ProductsPage
 from pages.start_page.start_page import StartPage
@@ -29,3 +30,7 @@ def products_page(browser_page: Page) -> ProductsPage:
 @pytest.fixture
 def api_cases_page(browser_page: Page) -> ApiCasesPage:
     return ApiCasesPage(page=browser_page)
+
+@pytest.fixture
+def contact_us_page(browser_page:Page)-> ContactUsPage:
+    return ContactUsPage(page=browser_page)

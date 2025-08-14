@@ -1,5 +1,6 @@
 import re
 
+import allure
 from playwright.sync_api import Page
 
 from components.base_component import BaseComponent
@@ -19,12 +20,16 @@ class SearchProduct(BaseComponent):
         self.search_button=Button(page, '//*[@id="submit_search"]', "Search button")
         self.search_icon=Icon(page, '//*[@id="submit_search"]/i', "fa fa-search")
         self.searched_products_title=Text(page, '//h2[normalize-space()="Searched Products"]', "Searched Products")
+
+    @allure.step("Checking logo and title on products page")
     def check_container(self):
         self.check_url("products")
         self.special_offer_image.to_be_visible()
         self.special_offer_image.to_have_attribute("src", "/static/images/shop/sale.jpg")
         self.all_products_title.to_be_visible()
         self.all_products_title.to_have_text("All Products")
+
+    @allure.step("Checking search function")
     def check_search_product(self):
         self.search_product_input.to_be_visible()
         self.search_product_input.to_have_attribute("placeholder", "Search Product")
