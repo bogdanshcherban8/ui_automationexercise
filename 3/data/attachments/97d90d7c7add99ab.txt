@@ -1,0 +1,12 @@
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//h1[normalize-space()="AutomationExercise"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Automation Exercise is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//h1[normalize-space()="AutomationExercise"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Automation Exercise has text AutomationExercise
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//h2[normalize-space()="Full-Fledged practice website for Automation Engineers"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Full-Fledged practice is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//h2[normalize-space()="Full-Fledged practice website for Automation Engineers"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Full-Fledged practice has text Full-Fledged practice website for Automation Engineers
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//p[normalize-space()="All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text All QA engineers is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//p[normalize-space()="All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills."]
+INFO     BASE_ELEMENT:base_element.py:99 Checking that text All QA engineers contain text All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills.

@@ -1,0 +1,44 @@
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//h2/b
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text main title is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//h2/b
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text main title has text Test Cases
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//h5/span
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text description is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//h5/span
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text description has text Below is the list of test Cases for you to practice the Automation. Click on the scenario for detailed Test Steps:
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//a[@href="#collapse1"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link collapse 1 is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//a[@href="#collapse1"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link collapse 1 has attributehref #collapse1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//a[@href="#collapse1"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link collapse 1 has text Test Case 1: Register User
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//a[@href="#collapse1"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking link collapse 1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="collapse1"]/ul/li[1]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text list-group-item is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="collapse1"]/ul/li[1]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text list-group-item has text 1. Launch browser
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="Feedback for Us"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link Feedback for Us is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="Feedback for Us"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link Feedback for Us has attributehref #feedback
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="Feedback for Us"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link Feedback for Us has text Feedback for Us
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //li[normalize-space()="We have identified above scenarios and added in the list."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text We have identified... is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //li[normalize-space()="We have identified above scenarios and added in the list."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text We have identified... has text We have identified above scenarios and added in the list.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //li[normalize-space()="You can explore more test cases in the website and if you find new test scenario that is not covered in above list, do let us know. We will definitely add that in above list."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text You can explore... is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //li[normalize-space()="You can explore more test cases in the website and if you find new test scenario that is not covered in above list, do let us know. We will definitely add that in above list."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text You can explore... has text You can explore more test cases in the website and if you find new test scenario that is not covered in above list, do let us know. We will definitely add that in above list.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //li[normalize-space()="If you think, this website should cover up any particular feature, kindly share with us at feedback@automationexercise.com. We will work on that part. Your feedback matters a lot."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text If you think... is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //li[normalize-space()="If you think, this website should cover up any particular feature, kindly share with us at feedback@automationexercise.com. We will work on that part. Your feedback matters a lot."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text If you think... has text If you think, this website should cover up any particular feature, kindly share with us at feedback@automationexercise.com. We will work on that part. Your feedback matters a lot.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="feedback@automationexercise.com"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link feedback@automationexercise.com is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="feedback@automationexercise.com"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link feedback@automationexercise.com has text feedback@automationexercise.com
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="feedback@automationexercise.com"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link feedback@automationexercise.com has attributehref mailto:feedback@automationexercise.com

@@ -1,0 +1,10 @@
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Kookie Kids"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Kookie Kids
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[@class="title text-center"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Brand - ... products is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[@class="title text-center"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Brand - ... products has text Brand - Kookie Kids Products
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[2]/div/div[2]//div[@class="productinfo text-center"]/p
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Item is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[2]/div/div[2]//div[@class="productinfo text-center"]/p
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Item has text Full Sleeves Top Cherry - Pink

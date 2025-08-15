@@ -1,0 +1,2 @@
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Subscription"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Subscription is visible
