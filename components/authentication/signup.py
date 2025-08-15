@@ -1,0 +1,240 @@
+import re
+
+import allure
+from faker import Faker
+from playwright.sync_api import Page
+
+from components.base_component import BaseComponent
+from components.elements.button import Button
+from components.elements.input import Input
+from components.elements.link import Link
+from components.elements.list import List
+from components.elements.text import Text
+
+
+class Signup(BaseComponent):
+    def __init__(self, page: Page):
+        super().__init__(page)
+        self.fake = Faker()
+        self.new_user_title = Text(page, '//h2[normalize-space()="New User Signup!"]', "New User Signup!")
+        self.name_input = Input(page, '//*[@id="form"]//input[@data-qa="signup-name"]', "Name")
+        self.email_input = Input(page, '//*[@id="form"]//input[@data-qa="signup-email"]', "Email Address")
+        self.already_exist_alert = Text(page, '//p[normalize-space()="Email Address already exist!"]',
+                                        "Email Address already exist!")
+        self.signup_button = Button(page, '//*[@id="form"]//button[@data-qa="signup-button"]', "Signup")
+        self.account_info_title = Text(page, '//b[normalize-space()="Enter Account Information"]',
+                                       "Enter Account Information")
+        self.title_title = Text(page, '//*[normalize-space()="Title"]', "Title")
+        self.mr_button = Button(page, '//*[@id="form"]//label[@for="id_gender1"]', "Mr.")
+        self.mrs_button = Button(page, '//*[@id="form"]//label[@for="id_gender2"]', "Mrs.")
+        self.name_title = Text(page, '//label[normalize-space()="Name *"]', "Name *")
+        self.edit_name = Input(page, '//*[@id="name"]', "Name")
+        self.edit_email_title = Text(page, '//label[normalize-space()="Email *"]', "Email *")
+        self.no_edit_email = Button(page, '//*[@id="email"]', "Disabled Email")
+        self.password_title = Text(page, '//label[normalize-space()="Password *"]', "Password *")
+        self.password_input = Input(page, '//*[@id="password"]', "Password")
+        self.date_of_birth_title = Text(page, '//label[normalize-space()="Date of Birth"]', "Date of Birth")
+        self.day_list = List(page, '//*[@id="days"]', "Day")
+        self.month_list = List(page, '//*[@id="months"]', "Month")
+        self.year_list = List(page, '//*[@id="years"]', "Year")
+        self.news_button = Button(page, '//*[@id="newsletter"]', "newsletter")
+        self.news_title = Text(page, '//label[normalize-space()="Sign up for our newsletter!"]',
+                               "Sign up for our newsletter!")
+        self.offers_button = Button(page, '//*[@id="optin"]', "optin")
+        self.offers_title = Text(page, '//label[normalize-space()="Receive special offers from our partners!"]',
+                                 "Receive special offers from our partners!")
+        self.address_info_title = Text(page, '//b[normalize-space()="Address Information"]', "Address Information")
+        self.first_name_title = Text(page, '//label[normalize-space()="First name *"]', "First name *")
+        self.first_name_input = Input(page, '//*[@id="first_name"]', "First name input")
+        self.last_name_title = Text(page, '//label[normalize-space()="Last name *"]', "Last name *")
+        self.last_name_input = Input(page, '//*[@id="last_name"]', "Last name input")
+        self.company_title = Text(page, '//label[normalize-space()="Company"]', "Company")
+        self.company_input = Input(page, '//*[@id="company"]', "Company input")
+        self.address_title = Text(page,
+                                  '//label[normalize-space()="Address * (Street address, P.O. Box, Company name, etc.)"]',
+                                  "Address * (Street address, P.O. Box, Company name, etc.)")
+        self.address_input = Input(page, '//*[@id="address1"]', "Address input")
+        self.address_2_title = Text(page, '//label[normalize-space()="Address 2"]', "Address 2")
+        self.address_2_input = Input(page, '//*[@id="address2"]', "Address 2 input")
+        self.country_title = Text(page, '//label[normalize-space()="Country *"]', "Country *")
+        self.country_list = List(page, '//*[@id="country"]', "Country list")
+        self.state_title = Text(page, '//label[normalize-space()="State *"]', "State *")
+        self.state_input = Input(page, '//*[@id="state"]', "State input")
+        self.city_title = Text(page, '//label[normalize-space()="City *"]', "City *")
+        self.city_input = Input(page, '//*[@id="city"]', "City input")
+        self.zipcode_title = Text(page, '//label[normalize-space()="Zipcode *"]', "Zipcode *")
+        self.zipcode_input = Input(page, '//*[@id="zipcode"]', "Zipcode input")
+        self.mobile_number_title = Text(page, '//label[normalize-space()="Mobile Number *"]', "Mobile Number *")
+        self.mobile_number_input = Input(page, '//*[@id="mobile_number"]', "Mobile Number input")
+        self.create_account_button = Button(page, '//*[@id="form"]//button[@data-qa="create-account"]',
+                                            "Create Account")
+        self.account_created_title = Text(page, '//b[normalize-space()="Account Created!"]', "Account Created!")
+        self.congratulations_text = Text(page,
+                                         '//*[@id="form"]/div/div/div/p[1]',
+                                         "Congratulations!")
+        self.you_can_text = Text(page,
+                                 '//p[normalize-space()="You can now take advantage of member privileges to enhance your online shopping experience with us."]',
+                                 "You can now...")
+        self.continue_link = Link(page, '//*[@id="form"]//a[@data-qa="continue-button"]', "Continue")
+        self.name = None
+        self.name_final = None
+        self.email = None
+        self.email_final = None
+    @allure.step("Fill signup form")
+    def check_signup(self):
+        self.check_url('login')
+        self.new_user_title.to_be_visible()
+        self.new_user_title.to_have_text("New User Signup!")
+        self.name_input.to_be_visible()
+        self.name_input.to_have_attribute("placeholder", "Name")
+        self.name = self.fake.name()
+        self.name_input.fill(self.name)
+        self.name_input.to_have_attribute("required", "")
+        self.email_input.to_be_visible()
+        self.email_input.to_have_attribute("placeholder", "Email Address")
+        self.email = self.fake.email()
+        self.email_input.fill(self.email)
+        self.email_input.to_have_attribute("required", "")
+        self.signup_button.to_be_visible()
+        self.signup_button.to_be_enabled()
+        self.signup_button.click()
+        alert_visible = False
+        try:
+            self.already_exist_alert.wait_for()
+            alert_visible = True
+        except:
+            pass
+
+        if alert_visible:
+            self.name = self.fake.name()
+            self.email = self.fake.email()
+            self.name_input.fill(self.name)
+            self.email_input.fill(self.email)
+            self.signup_button.click()
+
+        self.name_final = self.name
+        self.email_final = self.email
+    @allure.step("Fill account information")
+    def check_account_information(self):
+        self.check_url('signup')
+        self.account_info_title.to_be_visible()
+        self.account_info_title.to_have_text("Enter Account Information")
+        self.title_title.to_be_visible()
+        self.title_title.to_have_text("Title")
+        self.mr_button.to_be_visible()
+        self.mr_button.to_be_enabled()
+        self.mr_button.to_have_text("Mr.")
+        self.mr_button.click()
+        self.mrs_button.to_be_visible()
+        self.mrs_button.to_be_enabled()
+        self.mrs_button.to_have_text("Mrs.")
+        self.name_title.to_be_visible()
+        self.name_title.to_have_text("Name *")
+        self.edit_name.to_be_visible()
+        self.edit_name.to_have_value(self.name)
+        self.edit_name.to_have_attribute("required", "")
+        self.edit_email_title.to_be_visible()
+        self.edit_email_title.to_have_text("Email *")
+        self.no_edit_email.to_be_visible()
+        self.no_edit_email.to_be_disabled()
+        self.no_edit_email.to_have_value(self.email)
+        self.password_title.to_be_visible()
+        self.password_title.to_have_text("Password *")
+        self.password_input.to_have_attribute("required", "")
+        self.password_input.to_be_visible()
+        self.password_input.fill(self.fake.password())
+        self.date_of_birth_title.to_be_visible()
+        self.date_of_birth_title.to_have_text("Date of Birth")
+        self.day_list.to_be_visible()
+        self.day_list.to_have_attribute("name", "days")
+        self.day_list.select_option("8")
+        self.month_list.to_be_visible()
+        self.month_list.to_have_attribute("name", "months")
+        self.month_list.select_option("1")
+        self.year_list.to_be_visible()
+        self.year_list.to_have_attribute("name", "years")
+        self.year_list.select_option("2003")
+        self.news_button.to_be_visible()
+        self.news_button.to_be_enabled()
+        self.news_button.click()
+        self.news_title.to_be_visible()
+        self.news_title.to_have_text("Sign up for our newsletter!")
+        self.news_title.click()
+        self.offers_button.to_be_visible()
+        self.offers_button.to_be_enabled()
+        self.offers_button.click()
+        self.offers_title.to_be_visible()
+        self.offers_title.to_have_text("Receive special offers from our partners!")
+        self.offers_title.click()
+    @allure.step("Fill address information")
+    def check_address_information(self):
+        self.address_info_title.to_be_visible()
+        self.address_info_title.to_have_text("Address Information")
+        self.first_name_title.to_be_visible()
+        self.first_name_title.to_have_text("First name *")
+        self.first_name_input.to_have_attribute("required", "")
+        self.first_name_input.to_be_visible()
+        self.first_name_input.fill(self.fake.first_name())
+        self.last_name_title.to_be_visible()
+        self.last_name_title.to_have_text("Last name *")
+        self.last_name_input.to_have_attribute("required", "")
+        self.last_name_input.to_be_visible()
+        self.last_name_input.fill(self.fake.last_name())
+        self.company_title.to_be_visible()
+        self.company_title.to_have_text("Company")
+        self.company_input.to_be_visible()
+        self.address_title.to_be_visible()
+        self.address_title.to_have_text("Address * (Street address, P.O. Box, Company name, etc.)")
+        self.address_input.to_be_visible()
+        self.address_input.fill(self.fake.address())
+        self.address_input.to_have_attribute("required", "")
+        self.address_2_title.to_be_visible()
+        self.address_2_title.to_have_text("Address 2")
+        self.address_2_input.to_be_visible()
+        self.country_title.to_be_visible()
+        self.country_title.to_have_text("Country *")
+        self.country_list.to_have_attribute("required", "")
+        self.country_list.to_be_visible()
+        self.country_list.select_option("Canada")
+        self.state_title.to_be_visible()
+        self.state_title.to_have_text("State *")
+        self.state_input.to_be_visible()
+        self.state_input.to_have_attribute("required", "")
+        self.state_input.fill(self.fake.state())
+        self.city_title.to_be_visible()
+        self.city_title.to_have_text("City *")
+        self.city_input.to_be_visible()
+        self.city_input.to_have_attribute("required", "")
+        self.city_input.fill(self.fake.city())
+        self.zipcode_title.to_be_visible()
+        self.zipcode_title.to_have_text("Zipcode *")
+        self.zipcode_input.to_be_visible()
+        self.zipcode_input.to_have_attribute("required", "")
+        self.zipcode_input.fill(self.fake.zipcode())
+        self.mobile_number_title.to_be_visible()
+        self.mobile_number_title.to_have_text("Mobile Number *")
+        self.mobile_number_input.to_be_visible()
+        self.mobile_number_input.to_have_attribute("required", "")
+        self.mobile_number_input.fill(self.fake.phone_number())
+        self.create_account_button.to_be_visible()
+        self.create_account_button.to_be_enabled()
+        self.create_account_button.to_have_text("Create Account")
+        self.create_account_button.click()
+    @allure.step("Checking that account is created")
+    def check_account_created(self):
+        self.check_url("account_created")
+        self.account_created_title.to_be_visible()
+        self.account_created_title.to_have_text("Account Created!")
+        self.congratulations_text.to_be_visible()
+        self.congratulations_text.to_contain_text("Congratulations! Your new account has been successfully created!")
+        self.you_can_text.to_be_visible()
+        self.you_can_text.to_have_text(
+            "You can now take advantage of member privileges to enhance your online shopping experience with us.")
+        self.continue_link.to_be_visible()
+        self.continue_link.to_have_attribute("href", "/")
+        self.continue_link.to_have_text("Continue")
+        self.continue_link.click()
+        self.check_url("")
+
+    def check_url(self, text: str):
+        self.check_current_url(re.compile(rf'.*/{text}'))
