@@ -1,0 +1,120 @@
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="New User Signup!"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text New User Signup! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="New User Signup!"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text New User Signup! has text New User Signup!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-name"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Name is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-name"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Name has attributeplaceholder Name
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-name"]
+INFO     INPUT:input.py:15 Filling input Name with text Patrick Ward
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-name"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Name has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-email"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Email Address is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-email"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Email Address has attributeplaceholder Email Address
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-email"]
+INFO     INPUT:input.py:15 Filling input Email Address with text angela97@example.com
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-email"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Email Address has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="signup-button"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Signup is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="signup-button"]
+INFO     BUTTON:button.py:17 Checking that button Signup is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="signup-button"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Signup
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Email Address already exist!"]
+INFO     BASE_ELEMENT:base_element.py:71 Waiting for text Email Address already exist!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-name"]
+INFO     INPUT:input.py:15 Filling input Name with text Cassandra Odonnell
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-email"]
+INFO     INPUT:input.py:15 Filling input Email Address with text john03@example.org
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="signup-button"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Signup
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //img[@src="/static/images/home/logo.png"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that image Automation Exercise is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //img[@src="/static/images/home/logo.png"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that image Automation Exercise has attributesrc /static/images/home/logo.png
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[@class="fa fa-home"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon fa fa-home is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[@class="fa fa-home"]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-home has class fa fa-home
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link Home is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link Home has text Home
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link Home has attributehref /
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[@class="material-icons card_travel"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon material-icons card_travel is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[@class="material-icons card_travel"]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon material-icons card_travel has class material-icons card_travel
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/products"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link Products is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/products"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link Products has text  Products
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/products"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link Products has attributehref /products
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//i[@class="fa fa-shopping-cart"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon fa fa-shopping-cart is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//i[@class="fa fa-shopping-cart"]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-shopping-cart has class fa fa-shopping-cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/view_cart"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link Cart is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/view_cart"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link Cart has text Cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/view_cart"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link Cart has attributehref /view_cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/test_cases"]//i[@class="fa fa-list"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon fa fa-list is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/test_cases"]//i[@class="fa fa-list"]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-list has class fa fa-list
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/test_cases"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link Test Cases is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/test_cases"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link Test Cases has text Test Cases
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/test_cases"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link Test Cases has attributehref /test_cases
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/api_list"]//i[@class="fa fa-list"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon fa fa-list is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/api_list"]//i[@class="fa fa-list"]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-list has class fa fa-list
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/api_list"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link API Testing is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/api_list"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link API Testing has text API Testing
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/api_list"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link API Testing has attributehref /api_list
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[@class="fa fa-youtube-play"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon fa fa-youtube-play is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[@class="fa fa-youtube-play"]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-youtube-play has class fa fa-youtube-play
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="https://www.youtube.com/c/AutomationExercise"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link Video Tutorials is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="https://www.youtube.com/c/AutomationExercise"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link Video Tutorials has text Video Tutorials
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="https://www.youtube.com/c/AutomationExercise"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link Video Tutorials has attributehref https://www.youtube.com/c/AutomationExercise
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[@class="fa fa-envelope"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon fa fa-envelope is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[@class="fa fa-envelope"]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-envelope has class fa fa-envelope
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/contact_us"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link Contact us is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/contact_us"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link Contact us has text Contact us
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/contact_us"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link Contact us has attributehref /contact_us
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[@class="fa fa-lock"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon fa fa-lock is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[@class="fa fa-lock"]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-lock has class fa fa-lock
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/login"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link Signup / Login is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/login"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link Signup / Login has text Signup / Login
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="shop-menu pull-right"]//a[@href="/login"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link Signup / Login has attributehref /login
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //b[normalize-space()="Enter Account Information"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Enter Account Information is visible

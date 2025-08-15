@@ -1,0 +1,2 @@
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //img[@src="/get_product_picture/1"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that image Current item image is visible

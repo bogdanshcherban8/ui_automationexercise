@@ -1,0 +1,2 @@
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="#Women"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Women

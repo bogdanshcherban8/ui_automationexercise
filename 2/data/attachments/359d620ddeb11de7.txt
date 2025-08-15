@@ -1,0 +1,44 @@
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Login to your account"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Login to your account is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Login to your account"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Login to your account has text Login to your account
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-email"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Email Address is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-email"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Email Address has attributeplaceholder Email Address
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-email"]
+INFO     INPUT:input.py:15 Filling input Email Address with text hestes@example.net
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-email"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Email Address has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-password"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Password is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-password"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Password has attributeplaceholder Password
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-password"]
+INFO     INPUT:input.py:15 Filling input Password with text #5BSBV*eCQ
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-password"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Password has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="login-button"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Login is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="login-button"]
+INFO     BUTTON:button.py:17 Checking that button Login is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="login-button"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Login
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Your email or password is incorrect!"]
+INFO     BASE_ELEMENT:base_element.py:71 Waiting for text Your email or password is incorrect!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-email"]
+INFO     INPUT:input.py:15 Filling input Email Address with text 32@32
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-password"]
+INFO     INPUT:input.py:15 Filling input Password with text 32
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="login-button"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Login
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section//a[@href="/"]
+INFO     BASE_ELEMENT:base_element.py:64 Checking that link Home is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section//a[@href="/"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link Home has text Home
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section//a[@href="/"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link Home has attributehref /
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section//li[@class="active"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Women > Dress is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section//li[@class="active"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Women > Dress has text Payment
