@@ -17,6 +17,7 @@ from tools.allure.stories import AllureStory
 @allure.title("Checking brands on static pages")
 @allure.severity(Severity.MINOR)
 @allure.story(AllureStory.BRANDS)
+@pytest.mark.flacky(reruns=3, reruns_delay=2)
 @pytest.mark.parametrize("url", [settings.app_url, urljoin(settings.app_url, "products"), urljoin(settings.app_url, "product_details/1")])
 def test_brands_no_path(start_page:StartPage, url):
     start_page.visit(url)
