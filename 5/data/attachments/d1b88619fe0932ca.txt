@@ -1,0 +1,30 @@
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Subscription"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Subscription is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Subscription"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Subscription has text Subscription
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Your email address is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Your email address has attributeplaceholder Your email address
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     INPUT:input.py:15 Filling input Your email address with text susan68@example.com
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Subscribe is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BUTTON:button.py:17 Checking that button Subscribe is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]/i
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-arrow-circle-o-right has class fa fa-arrow-circle-o-right
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Get the most recent updates from our site and be updated your self..."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Get the most is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Get the most recent updates from our site and be updated your self..."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Get the most has text Get the most recent updates from our site and be updated your self...
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Copyright © 2021 All rights reserved"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Copyright © 2021 All rights reserved is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Copyright © 2021 All rights reserved"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Copyright © 2021 All rights reserved has text Copyright © 2021 All rights reserved
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Subscribe
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="success-subscribe"]/div
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text You have been successfully subscribed! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="success-subscribe"]/div
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text You have been successfully subscribed! has text You have been successfully subscribed!

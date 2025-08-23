@@ -1,0 +1,154 @@
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="sale_image"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that image sale_image is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="sale_image"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that image sale_image has attributesrc /static/images/shop/sale.jpg
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="All Products"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text All Products is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="All Products"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text All Products has text All Products
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //img[@src="/get_product_picture/1"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that image Item image is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //img[@src="/get_product_picture/1"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that image Item image has attributesrc /get_product_picture/1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="features_items"]//div[@class="productinfo text-center"]//h2[normalize-space()="Rs. 500"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Rs. 500 is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="features_items"]//div[@class="productinfo text-center"]//h2[normalize-space()="Rs. 500"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Rs. 500 has text Rs. 500
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="features_items"]//div[@class="productinfo text-center"]//p[normalize-space()="Blue Top"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Blue Top is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="features_items"]//div[@class="productinfo text-center"]//p[normalize-space()="Blue Top"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Blue Top has text Blue Top
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/product_details/1"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link View Product is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/product_details/1"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link View Product has attributehref /product_details/1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/product_details/1"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link View Product has text View Product
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/product_details/1"]//i[@class="fa fa-plus-square"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon fa fa-plus-square is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/product_details/1"]//i[@class="fa fa-plus-square"]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-plus-square has class fa fa-plus-square
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]//div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Add to cart is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]//div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/a
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Add to cart has text Add to cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/a/i
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon Shopping cart is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/a/i
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon Shopping cart has class fa fa-shopping-cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //img[@src="/get_product_picture/1"]
+INFO     BASE_ELEMENT:base_element.py:85 Hovering image Item image
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="overlay-content"]//h2[normalize-space()="Rs. 500"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Rs. 500 is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="overlay-content"]//h2[normalize-space()="Rs. 500"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Rs. 500 has text Rs. 500
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="overlay-content"]//p[normalize-space()="Blue Top"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Blue Top is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="overlay-content"]//p[normalize-space()="Blue Top"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Blue Top has text Blue Top
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Add to cart is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/a
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Add to cart has text Add to cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/a/i
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon Shopping cart is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/a/i
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon Shopping cart has class fa fa-shopping-cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="search_product"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Search Product is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="search_product"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Search Product has attributeplaceholder Search Product
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="search_product"]
+INFO     INPUT:input.py:15 Filling input Search Product with text Blue Top
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="submit_search"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Search button is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="submit_search"]
+INFO     BUTTON:button.py:17 Checking that button Search button is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="submit_search"]/i
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon fa fa-search is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="submit_search"]/i
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-search has class fa fa-search
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="submit_search"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Search button
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Searched Products"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Searched Products is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Searched Products"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Searched Products has text Searched Products
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //img[@src="/get_product_picture/1"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that image Item image is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //img[@src="/get_product_picture/1"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that image Item image has attributesrc /get_product_picture/1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="features_items"]//div[@class="productinfo text-center"]//h2[normalize-space()="Rs. 500"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Rs. 500 is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="features_items"]//div[@class="productinfo text-center"]//h2[normalize-space()="Rs. 500"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Rs. 500 has text Rs. 500
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="features_items"]//div[@class="productinfo text-center"]//p[normalize-space()="Blue Top"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Blue Top is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="features_items"]//div[@class="productinfo text-center"]//p[normalize-space()="Blue Top"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Blue Top has text Blue Top
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/product_details/1"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link View Product is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/product_details/1"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link View Product has attributehref /product_details/1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/product_details/1"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link View Product has text View Product
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/product_details/1"]//i[@class="fa fa-plus-square"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon fa fa-plus-square is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/product_details/1"]//i[@class="fa fa-plus-square"]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-plus-square has class fa fa-plus-square
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]//div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Add to cart is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]//div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/a
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Add to cart has text Add to cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/a/i
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon Shopping cart is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/a/i
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon Shopping cart has class fa fa-shopping-cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //img[@src="/get_product_picture/1"]
+INFO     BASE_ELEMENT:base_element.py:85 Hovering image Item image
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="overlay-content"]//h2[normalize-space()="Rs. 500"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Rs. 500 is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="overlay-content"]//h2[normalize-space()="Rs. 500"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Rs. 500 has text Rs. 500
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="overlay-content"]//p[normalize-space()="Blue Top"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Blue Top is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="overlay-content"]//p[normalize-space()="Blue Top"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Blue Top has text Blue Top
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Add to cart is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/a
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Add to cart has text Add to cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/a/i
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon Shopping cart is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/a/i
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon Shopping cart has class fa fa-shopping-cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/a
+INFO     BASE_ELEMENT:base_element.py:50 Clicking text Add to cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[normalize-space()=""]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon  is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[normalize-space()=""]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that icon  has text 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[normalize-space()=""]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon  has class material-icons
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h4[normalize-space()="Added!"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Added! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h4[normalize-space()="Added!"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Added! has text Added!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Your product has been added to cart."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Your product has been added to cart. is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Your product has been added to cart."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Your product has been added to cart. has text Your product has been added to cart.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //button[normalize-space()="Continue Shopping"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Continue Shopping is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //button[normalize-space()="Continue Shopping"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Continue Shopping has text Continue Shopping
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //button[normalize-space()="Continue Shopping"]
+INFO     BUTTON:button.py:17 Checking that button Continue Shopping is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[@class="text-center"]//a[@href="/view_cart"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link View Cart is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[@class="text-center"]//a[@href="/view_cart"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link View Cart has text View Cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[@class="text-center"]//a[@href="/view_cart"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link View Cart has attributehref /view_cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[@class="text-center"]//a[@href="/view_cart"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking link View Cart

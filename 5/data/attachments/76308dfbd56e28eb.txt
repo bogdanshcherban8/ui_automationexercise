@@ -1,0 +1,82 @@
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Category"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Category is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Category"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Category has text Category
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="#Women"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Women is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="#Women"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Women has text Women
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="#Women"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Women has attributehref #Women
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="accordian"]/div[1]//i[@class="fa fa-plus"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon fa fa-plus is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="accordian"]/div[1]//i[@class="fa fa-plus"]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-plus has class fa fa-plus
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="#Women"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Women
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Women"]/div/ul/li[1]/a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Dress is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Women"]/div/ul/li[1]/a
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Dress has text Dress
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Women"]/div/ul/li[1]/a
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Dress has attributehref /category_products/1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Women"]/div/ul/li[2]/a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Tops is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Women"]/div/ul/li[2]/a
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Tops has text Tops
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Women"]/div/ul/li[2]/a
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Tops has attributehref /category_products/2
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Women"]/div/ul/li[3]/a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Saree is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Women"]/div/ul/li[3]/a
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Saree has text Saree
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Women"]/div/ul/li[3]/a
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Saree has attributehref /category_products/7
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="accordian"]/div[2]/div[1]/h4/a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Men is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="accordian"]/div[2]/div[1]/h4/a
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Men has text Men
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="accordian"]/div[2]/div[1]/h4/a
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Men has attributehref #Men
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[2]//i[@class="fa fa-plus"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon fa fa-plus is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[2]//i[@class="fa fa-plus"]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-plus has class fa fa-plus
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="accordian"]/div[2]/div[1]/h4/a
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Men
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Men"]/div/ul/li[1]/a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Tshirts is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Men"]/div/ul/li[1]/a
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Tshirts has text Tshirts
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Men"]/div/ul/li[1]/a
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Tshirts has attributehref /category_products/3
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Men"]/div/ul/li[2]/a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Jeans is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Men"]/div/ul/li[2]/a
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Jeans has text Jeans
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Men"]/div/ul/li[2]/a
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Jeans has attributehref /category_products/6
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="accordian"]/div[3]/div[1]/h4/a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Kids is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="accordian"]/div[3]/div[1]/h4/a
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Kids has text Kids
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="accordian"]/div[3]/div[1]/h4/a
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Kids has attributehref #Kids
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[3]//i[@class="fa fa-plus"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon fa fa-plus is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[3]//i[@class="fa fa-plus"]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-plus has class fa fa-plus
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="accordian"]/div[3]/div[1]/h4/a
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Kids
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Kids"]/div/ul/li[1]/a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Dress is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Kids"]/div/ul/li[1]/a
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Dress has text Dress
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Kids"]/div/ul/li[1]/a
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Dress has attributehref /category_products/4
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Kids"]/div/ul/li[2]/a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Tops & Shirts  is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Kids"]/div/ul/li[2]/a
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Tops & Shirts  has text Tops & Shirts 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Kids"]/div/ul/li[2]/a
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Tops & Shirts  has attributehref /category_products/5

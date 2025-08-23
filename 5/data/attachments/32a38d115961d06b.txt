@@ -1,0 +1,52 @@
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Brands"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Brands is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Brands"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Brands has text Brands
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Polo"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Polo is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Polo"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Polo has text (6)Polo
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Polo"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Polo has attributehref /brand_products/Polo
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/H&M"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button H&M is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/H&M"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button H&M has text (5)H&M
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/H&M"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button H&M has attributehref /brand_products/H&M
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Madame"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Madame is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Madame"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Madame has text (5)Madame
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Madame"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Madame has attributehref /brand_products/Madame
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Mast & Harbour"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Mast & Harbour is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Mast & Harbour"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Mast & Harbour has text (3)Mast & Harbour
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Mast & Harbour"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Mast & Harbour has attributehref /brand_products/Mast & Harbour
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Babyhug"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Babyhug is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Babyhug"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Babyhug has text (4)Babyhug
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Babyhug"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Babyhug has attributehref /brand_products/Babyhug
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Allen Solly Junior"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Allen Solly Junior is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Allen Solly Junior"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Allen Solly Junior has text (3)Allen Solly Junior
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Allen Solly Junior"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Allen Solly Junior has attributehref /brand_products/Allen Solly Junior
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Kookie Kids"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Kookie Kids is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Kookie Kids"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Kookie Kids has text (3)Kookie Kids
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Kookie Kids"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Kookie Kids has attributehref /brand_products/Kookie Kids
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Biba"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Biba is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Biba"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Biba has text (5)Biba
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/brand_products/Biba"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Biba has attributehref /brand_products/Biba
