@@ -17,7 +17,7 @@ from tools.allure.stories import AllureStory
 @pytest.mark.no_path
 @allure.severity(Severity.TRIVIAL)
 @allure.title("Checking carousel on static pages")
-@pytest.mark.flacky(rerun=3, delay=2)
+@pytest.mark.flacky(reruns=3, reruns_delay=2)
 def test_carousel_no_path(start_page: StartPage):
     start_page.visit(settings.app_url)
     start_page.carousel.check_carousel()

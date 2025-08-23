@@ -20,7 +20,7 @@ class TestLowerPanel:
     @allure.title("Checking lower panel on static pages")
     @pytest.mark.smoke
     @pytest.mark.no_path
-    @pytest.mark.flacky(rerun=3, delay=2)
+    @pytest.mark.flacky(reruns=3, reruns_delay=2)
     @pytest.mark.parametrize("url", [settings.app_url, urljoin(settings.app_url, "products"),
                                      urljoin(settings.app_url, "view_cart"), urljoin(settings.app_url, "login"),
                                      urljoin(settings.app_url, "test_cases"), urljoin(settings.app_url, "api_list"),
