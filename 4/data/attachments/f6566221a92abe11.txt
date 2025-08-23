@@ -1,0 +1,12 @@
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="accordian"]/div[2]/div[1]/h4/a
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Men
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="Men"]/div/ul/li[1]/a
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Tshirts
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with /html/body/section/div/div[2]/div[2]/div/h2
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text ... - ... Products is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with /html/body/section/div/div[2]/div[2]/div/h2
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text ... - ... Products has text Men - Tshirts Products
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with /html/body/section/div/div[2]/div[2]/div/div[2]/div/div[1]/div[1]/p
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Item is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with /html/body/section/div/div[2]/div[2]/div/div[2]/div/div[1]/div[1]/p
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Item has text Men Tshirt

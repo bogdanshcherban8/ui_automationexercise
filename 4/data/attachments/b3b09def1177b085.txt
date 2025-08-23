@@ -1,0 +1,87 @@
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Contact Us"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Contact Us is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Contact Us"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Contact Us has text Contact Us
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="contact-form"]/div[1]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Note: Below contact form is for testing purpose. is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="contact-form"]/div[1]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Note: Below contact form is for testing purpose. has text Note: Below contact form is for testing purpose.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Get In Touch"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Get In Touch is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Get In Touch"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Get In Touch has text Get In Touch
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Feedback For Us"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Feedback For Us is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Feedback For Us"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Feedback For Us has text Feedback For Us
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="We really appreciate your response to our website."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text We really is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="We really appreciate your response to our website."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text We really has text We really appreciate your response to our website.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Kindly share your feedback with us at feedback@automationexercise.com."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Kindly share is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Kindly share your feedback with us at feedback@automationexercise.com."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Kindly share has text Kindly share your feedback with us at feedback@automationexercise.com.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="mailto:feedback@automationexercise.com"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link mailto:feedback@automationexercise.com is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="mailto:feedback@automationexercise.com"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link mailto:feedback@automationexercise.com has text feedback@automationexercise.com
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="mailto:feedback@automationexercise.com"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link mailto:feedback@automationexercise.com has attributehref mailto:feedback@automationexercise.com
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="If you have any suggestion areas or improvements, do let us know. We will definitely work on it."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text If you have is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="If you have any suggestion areas or improvements, do let us know. We will definitely work on it."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text If you have has text If you have any suggestion areas or improvements, do let us know. We will definitely work on it.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Thank you"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Thank you is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Thank you"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Thank you has text Thank you
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="name"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Name is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="name"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Name has attributeplaceholder Name
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="name"]
+INFO     INPUT:input.py:15 Filling input Name with text Brandy Warner
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="email"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Email is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="email"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Email has attributeplaceholder Email
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="email"]
+INFO     INPUT:input.py:15 Filling input Email with text gsmith@example.org
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="subject"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Subject is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="subject"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Subject has attributeplaceholder Subject
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="subject"]
+INFO     INPUT:input.py:15 Filling input Subject with text Language but popular citizen cut to grow.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //textarea[@data-qa="message"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Your Message Here is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //textarea[@data-qa="message"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Your Message Here has attributeplaceholder Your Message Here
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //textarea[@data-qa="message"]
+INFO     INPUT:input.py:15 Filling input Your Message Here with text Example fill believe machine begin. Probably himself smile.
+Quickly bar animal wall. Mean worker born light among close like. Child food require.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="submit-button"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Submit is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="submit-button"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Submit has attributevalue Submit
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@name="upload_file"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input file Choose File is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@name="upload_file"]
+INFO     INPUT FILE:input_file.py:15 Setting input files input file Choose File with file path testdata/test_file.txt
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="submit-button"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Submit
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="status alert alert-success"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Success! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="status alert alert-success"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Success! has text Success! Your details have been submitted successfully.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //span[normalize-space()="Home"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Home is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //span[normalize-space()="Home"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Home has text Home
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[@class="fa fa-angle-double-left"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon << is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[@class="fa fa-angle-double-left"]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon << has class fa fa-angle-double-left
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //span[normalize-space()="Home"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Home

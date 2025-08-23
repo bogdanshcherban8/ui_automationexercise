@@ -1,0 +1,118 @@
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//h1[normalize-space()="AutomationExercise"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Automation Exercise is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//h1[normalize-space()="AutomationExercise"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Automation Exercise has text AutomationExercise
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//h2[normalize-space()="Full-Fledged practice website for Automation Engineers"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Full-Fledged practice is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//h2[normalize-space()="Full-Fledged practice website for Automation Engineers"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Full-Fledged practice has text Full-Fledged practice website for Automation Engineers
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//p[normalize-space()="All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text All QA engineers is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//p[normalize-space()="All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills."]
+INFO     BASE_ELEMENT:base_element.py:99 Checking that text All QA engineers contain text All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/test_cases"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Test Cases is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/test_cases"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Test Cases has attributehref /test_cases
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/test_cases"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Test Cases has text Test Cases
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/test_cases"]
+INFO     BUTTON:button.py:17 Checking that button Test Cases is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/api_list"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button APIs list for practice is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/api_list"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button APIs list for practice has attributehref /api_list
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/api_list"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button APIs list for practice has text APIs list for practice
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/api_list"]
+INFO     BUTTON:button.py:17 Checking that button APIs list for practice is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //li[@class="active"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Low buttons is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//img[@class="girl img-responsive"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that image image is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//img[@class="girl img-responsive"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that image image has attributesrc /static/images/home/girl2.jpg
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@class="left control-carousel hidden-xs"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Left button is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@class="left control-carousel hidden-xs"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Left button has attributehref #slider-carousel
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@class="right control-carousel hidden-xs"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Right button is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@class="right control-carousel hidden-xs"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Right button has attributehref #slider-carousel
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@class="right control-carousel hidden-xs"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Right button
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//h1[normalize-space()="AutomationExercise"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Automation Exercise is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//h1[normalize-space()="AutomationExercise"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Automation Exercise has text AutomationExercise
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//h2[normalize-space()="Full-Fledged practice website for Automation Engineers"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Full-Fledged practice is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//h2[normalize-space()="Full-Fledged practice website for Automation Engineers"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Full-Fledged practice has text Full-Fledged practice website for Automation Engineers
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//p[normalize-space()="All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text All QA engineers is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//p[normalize-space()="All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills."]
+INFO     BASE_ELEMENT:base_element.py:99 Checking that text All QA engineers contain text All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/test_cases"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Test Cases is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/test_cases"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Test Cases has attributehref /test_cases
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/test_cases"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Test Cases has text Test Cases
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/test_cases"]
+INFO     BUTTON:button.py:17 Checking that button Test Cases is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/api_list"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button APIs list for practice is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/api_list"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button APIs list for practice has attributehref /api_list
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/api_list"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button APIs list for practice has text APIs list for practice
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/api_list"]
+INFO     BUTTON:button.py:17 Checking that button APIs list for practice is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //li[@class="active"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Low buttons is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//img[@class="girl img-responsive"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that image image is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//img[@class="girl img-responsive"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that image image has attributesrc /static/images/home/girl1.jpg
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@class="right control-carousel hidden-xs"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Right button
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//h1[normalize-space()="AutomationExercise"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Automation Exercise is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//h1[normalize-space()="AutomationExercise"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Automation Exercise has text AutomationExercise
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//h2[normalize-space()="Full-Fledged practice website for Automation Engineers"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Full-Fledged practice is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//h2[normalize-space()="Full-Fledged practice website for Automation Engineers"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Full-Fledged practice has text Full-Fledged practice website for Automation Engineers
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//p[normalize-space()="All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text All QA engineers is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//p[normalize-space()="All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills."]
+INFO     BASE_ELEMENT:base_element.py:99 Checking that text All QA engineers contain text All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/test_cases"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Test Cases is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/test_cases"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button Test Cases has attributehref /test_cases
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/test_cases"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Test Cases has text Test Cases
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/test_cases"]
+INFO     BUTTON:button.py:17 Checking that button Test Cases is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/api_list"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button APIs list for practice is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/api_list"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that button APIs list for practice has attributehref /api_list
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/api_list"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button APIs list for practice has text APIs list for practice
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//a[@href="/api_list"]
+INFO     BUTTON:button.py:17 Checking that button APIs list for practice is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //li[@class="active"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Low buttons is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//img[@class="girl img-responsive"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that image image is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="item active"]//img[@class="girl img-responsive"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that image image has attributesrc /static/images/home/girl3.jpg
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Features Items"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Features Items is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Features Items"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Features Items has text Features Items

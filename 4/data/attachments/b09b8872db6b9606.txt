@@ -1,0 +1,311 @@
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="New User Signup!"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text New User Signup! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="New User Signup!"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text New User Signup! has text New User Signup!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-name"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Name is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-name"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Name has attributeplaceholder Name
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-name"]
+INFO     INPUT:input.py:15 Filling input Name with text Mr. David Haynes
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-name"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Name has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-email"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Email Address is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-email"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Email Address has attributeplaceholder Email Address
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-email"]
+INFO     INPUT:input.py:15 Filling input Email Address with text reginascott@example.org
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="signup-email"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Email Address has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="signup-button"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Signup is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="signup-button"]
+INFO     BUTTON:button.py:17 Checking that button Signup is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="signup-button"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Signup
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Email Address already exist!"]
+INFO     BASE_ELEMENT:base_element.py:71 Waiting for text Email Address already exist!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Subscription"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Subscription is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Subscription"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Subscription has text Subscription
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Your email address is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Your email address has attributeplaceholder Your email address
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     INPUT:input.py:15 Filling input Your email address with text zflores@example.net
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Subscribe is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BUTTON:button.py:17 Checking that button Subscribe is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]/i
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-arrow-circle-o-right has class fa fa-arrow-circle-o-right
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Get the most recent updates from our site and be updated your self..."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Get the most is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Get the most recent updates from our site and be updated your self..."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Get the most has text Get the most recent updates from our site and be updated your self...
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Copyright © 2021 All rights reserved"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Copyright © 2021 All rights reserved is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Copyright © 2021 All rights reserved"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Copyright © 2021 All rights reserved has text Copyright © 2021 All rights reserved
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Subscribe
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="success-subscribe"]/div
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text You have been successfully subscribed! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="success-subscribe"]/div
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text You have been successfully subscribed! has text You have been successfully subscribed!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //b[normalize-space()="Enter Account Information"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Enter Account Information is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //b[normalize-space()="Enter Account Information"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Enter Account Information has text Enter Account Information
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[normalize-space()="Title"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Title is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[normalize-space()="Title"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Title has text Title
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//label[@for="id_gender1"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Mr. is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//label[@for="id_gender1"]
+INFO     BUTTON:button.py:17 Checking that button Mr. is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//label[@for="id_gender1"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Mr. has text Mr.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//label[@for="id_gender1"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Mr.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//label[@for="id_gender2"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Mrs. is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//label[@for="id_gender2"]
+INFO     BUTTON:button.py:17 Checking that button Mrs. is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//label[@for="id_gender2"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Mrs. has text Mrs.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Name *"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Name * is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Name *"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Name * has text Name *
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="name"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Name is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="name"]
+INFO     BASE_ELEMENT:base_element.py:78 Checking that input Name has value Mr. David Haynes
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="name"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Name has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Email *"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Email * is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Email *"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Email * has text Email *
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="email"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Disabled Email is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="email"]
+INFO     BUTTON:button.py:24 Checking that button Disabled Email is disabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="email"]
+INFO     BASE_ELEMENT:base_element.py:78 Checking that button Disabled Email has value reginascott@example.org
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Password *"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Password * is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Password *"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Password * has text Password *
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="password"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Password has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="password"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Password is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="password"]
+INFO     INPUT:input.py:15 Filling input Password with text B+t6Cop7yG
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Date of Birth"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Date of Birth is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Date of Birth"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Date of Birth has text Date of Birth
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="days"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that list Day is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="days"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that list Day has attributename days
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="days"]
+INFO     LIST:list.py:15 Selecting option list Day with value 8
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="months"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that list Month is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="months"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that list Month has attributename months
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="months"]
+INFO     LIST:list.py:15 Selecting option list Month with value 1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="years"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that list Year is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="years"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that list Year has attributename years
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="years"]
+INFO     LIST:list.py:15 Selecting option list Year with value 2003
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="newsletter"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button newsletter is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="newsletter"]
+INFO     BUTTON:button.py:17 Checking that button newsletter is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="newsletter"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button newsletter
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Sign up for our newsletter!"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Sign up for our newsletter! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Sign up for our newsletter!"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Sign up for our newsletter! has text Sign up for our newsletter!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Sign up for our newsletter!"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking text Sign up for our newsletter!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="optin"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button optin is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="optin"]
+INFO     BUTTON:button.py:17 Checking that button optin is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="optin"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button optin
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Receive special offers from our partners!"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Receive special offers from our partners! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Receive special offers from our partners!"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Receive special offers from our partners! has text Receive special offers from our partners!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Receive special offers from our partners!"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking text Receive special offers from our partners!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //b[normalize-space()="Address Information"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Address Information is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //b[normalize-space()="Address Information"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Address Information has text Address Information
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="First name *"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text First name * is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="First name *"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text First name * has text First name *
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="first_name"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input First name input has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="first_name"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input First name input is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="first_name"]
+INFO     INPUT:input.py:15 Filling input First name input with text Julie
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Last name *"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Last name * is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Last name *"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Last name * has text Last name *
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="last_name"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Last name input has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="last_name"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Last name input is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="last_name"]
+INFO     INPUT:input.py:15 Filling input Last name input with text Green
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Company"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Company is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Company"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Company has text Company
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="company"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Company input is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Address * (Street address, P.O. Box, Company name, etc.)"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Address * (Street address, P.O. Box, Company name, etc.) is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Address * (Street address, P.O. Box, Company name, etc.)"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Address * (Street address, P.O. Box, Company name, etc.) has text Address * (Street address, P.O. Box, Company name, etc.)
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="address1"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Address input is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="address1"]
+INFO     INPUT:input.py:15 Filling input Address input with text Unit 8253 Box 1105
+DPO AP 70741
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="address1"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Address input has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Address 2"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Address 2 is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Address 2"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Address 2 has text Address 2
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="address2"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Address 2 input is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Country *"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Country * is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Country *"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Country * has text Country *
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="country"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that list Country list has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="country"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that list Country list is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="country"]
+INFO     LIST:list.py:15 Selecting option list Country list with value Canada
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="State *"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text State * is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="State *"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text State * has text State *
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="state"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input State input is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="state"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input State input has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="state"]
+INFO     INPUT:input.py:15 Filling input State input with text Pennsylvania
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="City *"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text City * is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="City *"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text City * has text City *
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="city"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input City input is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="city"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input City input has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="city"]
+INFO     INPUT:input.py:15 Filling input City input with text Angelaport
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Zipcode *"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Zipcode * is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Zipcode *"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Zipcode * has text Zipcode *
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="zipcode"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Zipcode input is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="zipcode"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Zipcode input has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="zipcode"]
+INFO     INPUT:input.py:15 Filling input Zipcode input with text 92351
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Mobile Number *"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Mobile Number * is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Mobile Number *"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Mobile Number * has text Mobile Number *
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="mobile_number"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Mobile Number input is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="mobile_number"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Mobile Number input has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="mobile_number"]
+INFO     INPUT:input.py:15 Filling input Mobile Number input with text 276.904.4670x51625
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="create-account"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Create Account is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="create-account"]
+INFO     BUTTON:button.py:17 Checking that button Create Account is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="create-account"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Create Account has text Create Account
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="create-account"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Create Account
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Subscription"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Subscription is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Subscription"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Subscription has text Subscription
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Your email address is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Your email address has attributeplaceholder Your email address
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     INPUT:input.py:15 Filling input Your email address with text erik89@example.com
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Subscribe is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BUTTON:button.py:17 Checking that button Subscribe is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]/i
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-arrow-circle-o-right has class fa fa-arrow-circle-o-right
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Get the most recent updates from our site and be updated your self..."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Get the most is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Get the most recent updates from our site and be updated your self..."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Get the most has text Get the most recent updates from our site and be updated your self...
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Copyright © 2021 All rights reserved"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Copyright © 2021 All rights reserved is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Copyright © 2021 All rights reserved"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Copyright © 2021 All rights reserved has text Copyright © 2021 All rights reserved
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Subscribe
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="success-subscribe"]/div
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text You have been successfully subscribed! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="success-subscribe"]/div
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text You have been successfully subscribed! has text You have been successfully subscribed!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //b[normalize-space()="Account Created!"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Account Created! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //b[normalize-space()="Account Created!"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Account Created! has text Account Created!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]/div/div/div/p[1]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Congratulations! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]/div/div/div/p[1]
+INFO     BASE_ELEMENT:base_element.py:99 Checking that text Congratulations! contain text Congratulations! Your new account has been successfully created!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="You can now take advantage of member privileges to enhance your online shopping experience with us."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text You can now... is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="You can now take advantage of member privileges to enhance your online shopping experience with us."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text You can now... has text You can now take advantage of member privileges to enhance your online shopping experience with us.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//a[@data-qa="continue-button"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link Continue is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//a[@data-qa="continue-button"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link Continue has attributehref /
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//a[@data-qa="continue-button"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link Continue has text Continue
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//a[@data-qa="continue-button"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking link Continue

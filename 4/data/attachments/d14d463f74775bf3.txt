@@ -1,0 +1,511 @@
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Subscription"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Subscription is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Subscription"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Subscription has text Subscription
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Your email address is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Your email address has attributeplaceholder Your email address
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     INPUT:input.py:15 Filling input Your email address with text cassandrahill@example.org
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Subscribe is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BUTTON:button.py:17 Checking that button Subscribe is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]/i
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-arrow-circle-o-right has class fa fa-arrow-circle-o-right
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Get the most recent updates from our site and be updated your self..."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Get the most is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Get the most recent updates from our site and be updated your self..."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Get the most has text Get the most recent updates from our site and be updated your self...
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Copyright © 2021 All rights reserved"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Copyright © 2021 All rights reserved is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Copyright © 2021 All rights reserved"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Copyright © 2021 All rights reserved has text Copyright © 2021 All rights reserved
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Subscribe
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="success-subscribe"]/div
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text You have been successfully subscribed! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="success-subscribe"]/div
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text You have been successfully subscribed! has text You have been successfully subscribed!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Login to your account"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Login to your account is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Login to your account"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Login to your account has text Login to your account
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-email"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Email Address is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-email"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Email Address has attributeplaceholder Email Address
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-email"]
+INFO     INPUT:input.py:15 Filling input Email Address with text mia53@example.net
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-email"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Email Address has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-password"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Password is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-password"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Password has attributeplaceholder Password
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-password"]
+INFO     INPUT:input.py:15 Filling input Password with text k&)93TldUi
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-password"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Password has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="login-button"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Login is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="login-button"]
+INFO     BUTTON:button.py:17 Checking that button Login is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="login-button"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Login
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Your email or password is incorrect!"]
+INFO     BASE_ELEMENT:base_element.py:71 Waiting for text Your email or password is incorrect!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-email"]
+INFO     INPUT:input.py:15 Filling input Email Address with text 32@32
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//input[@data-qa="login-password"]
+INFO     INPUT:input.py:15 Filling input Password with text 32
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="form"]//button[@data-qa="login-button"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Login
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //img[@src="/get_product_picture/1"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that image Item image is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //img[@src="/get_product_picture/1"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that image Item image has attributesrc /get_product_picture/1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="features_items"]//div[@class="productinfo text-center"]//h2[normalize-space()="Rs. 500"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Rs. 500 is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="features_items"]//div[@class="productinfo text-center"]//h2[normalize-space()="Rs. 500"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Rs. 500 has text Rs. 500
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="features_items"]//div[@class="productinfo text-center"]//p[normalize-space()="Blue Top"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Blue Top is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="features_items"]//div[@class="productinfo text-center"]//p[normalize-space()="Blue Top"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Blue Top has text Blue Top
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/product_details/1"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link View Product is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/product_details/1"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link View Product has attributehref /product_details/1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/product_details/1"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link View Product has text View Product
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/product_details/1"]//i[@class="fa fa-plus-square"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon fa fa-plus-square is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/product_details/1"]//i[@class="fa fa-plus-square"]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-plus-square has class fa fa-plus-square
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]//div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Add to cart is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]//div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/a
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Add to cart has text Add to cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/a/i
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon Shopping cart is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/a/i
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon Shopping cart has class fa fa-shopping-cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //img[@src="/get_product_picture/1"]
+INFO     BASE_ELEMENT:base_element.py:85 Hovering image Item image
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="overlay-content"]//h2[normalize-space()="Rs. 500"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Rs. 500 is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="overlay-content"]//h2[normalize-space()="Rs. 500"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Rs. 500 has text Rs. 500
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="overlay-content"]//p[normalize-space()="Blue Top"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Blue Top is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //div[@class="overlay-content"]//p[normalize-space()="Blue Top"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Blue Top has text Blue Top
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Add to cart is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/a
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Add to cart has text Add to cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/a/i
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon Shopping cart is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/a/i
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon Shopping cart has class fa fa-shopping-cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/a
+INFO     BASE_ELEMENT:base_element.py:50 Clicking text Add to cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[normalize-space()=""]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon  is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[normalize-space()=""]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that icon  has text 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[normalize-space()=""]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon  has class material-icons
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h4[normalize-space()="Added!"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Added! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h4[normalize-space()="Added!"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Added! has text Added!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Your product has been added to cart."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Your product has been added to cart. is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Your product has been added to cart."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Your product has been added to cart. has text Your product has been added to cart.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //button[normalize-space()="Continue Shopping"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Continue Shopping is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //button[normalize-space()="Continue Shopping"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Continue Shopping has text Continue Shopping
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //button[normalize-space()="Continue Shopping"]
+INFO     BUTTON:button.py:17 Checking that button Continue Shopping is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[@class="text-center"]//a[@href="/view_cart"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link View Cart is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[@class="text-center"]//a[@href="/view_cart"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link View Cart has text View Cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[@class="text-center"]//a[@href="/view_cart"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link View Cart has attributehref /view_cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[@class="text-center"]//a[@href="/view_cart"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking link View Cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Subscription"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Subscription is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Subscription"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Subscription has text Subscription
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Your email address is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Your email address has attributeplaceholder Your email address
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     INPUT:input.py:15 Filling input Your email address with text brianfox@example.com
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Subscribe is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BUTTON:button.py:17 Checking that button Subscribe is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]/i
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-arrow-circle-o-right has class fa fa-arrow-circle-o-right
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Get the most recent updates from our site and be updated your self..."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Get the most is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Get the most recent updates from our site and be updated your self..."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Get the most has text Get the most recent updates from our site and be updated your self...
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Copyright © 2021 All rights reserved"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Copyright © 2021 All rights reserved is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Copyright © 2021 All rights reserved"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Copyright © 2021 All rights reserved has text Copyright © 2021 All rights reserved
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Subscribe
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="success-subscribe"]/div
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text You have been successfully subscribed! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="success-subscribe"]/div
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text You have been successfully subscribed! has text You have been successfully subscribed!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Item"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Item is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Item"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Item has text Item
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Description"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Description is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Description"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Description has text Description
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Price"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Price is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Price"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Price has text Price
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Quantity"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Quantity is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Quantity"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Quantity has text Quantity
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Total"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text total is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Total"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text total has text Total
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_product"]//img
+INFO     BASE_ELEMENT:base_element.py:29 Checking that image Item image is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_product"]//img
+INFO     BASE_ELEMENT:base_element.py:43 Checking that image Item image has attributesrc get_product_picture/1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_description"]//a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link Blue Top is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_description"]//a
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link Blue Top has text Blue Top
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_description"]//a
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link Blue Top has attributehref /product_details/1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_description"]//p
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Women > Tops is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_description"]//p
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Women > Tops has text Women > Tops
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_price"]//p
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Rs. 500 is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_price"]//p
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Rs. 500 has text Rs. 500
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_quantity"]/button
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button 1 is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_quantity"]/button
+INFO     BASE_ELEMENT:base_element.py:92 Getting text button 1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_delete"]/a
+INFO     BASE_ELEMENT:base_element.py:64 Checking that button Delete button is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_delete"]/a
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Delete button
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="here"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking link Here
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //img[@src="/get_product_picture/1"]
+INFO     BASE_ELEMENT:base_element.py:85 Hovering image Item image
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //section[2]/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/a
+INFO     BASE_ELEMENT:base_element.py:50 Clicking text Add to cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[@class="text-center"]//a[@href="/view_cart"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking link View Cart
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_quantity"]/button
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button 1 has text 1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_total"]/p
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Rs. 500 is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_total"]/p
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Rs. 500 has text Rs. 500
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_delete"]/a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Delete button is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_delete"]/a
+INFO     BUTTON:button.py:17 Checking that button Delete button is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[@class="fa fa-times"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that icon fa fa-times is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //i[@class="fa fa-times"]
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-times has class fa fa-times
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="Proceed To Checkout"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Proceed To Checkout is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="Proceed To Checkout"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Proceed To Checkout has text Proceed To Checkout
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="Proceed To Checkout"]
+INFO     BUTTON:button.py:17 Checking that button Proceed To Checkout is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="Proceed To Checkout"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Proceed To Checkout
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Subscription"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Subscription is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Subscription"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Subscription has text Subscription
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Your email address is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Your email address has attributeplaceholder Your email address
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     INPUT:input.py:15 Filling input Your email address with text josephgarcia@example.com
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Subscribe is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BUTTON:button.py:17 Checking that button Subscribe is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]/i
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-arrow-circle-o-right has class fa fa-arrow-circle-o-right
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Get the most recent updates from our site and be updated your self..."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Get the most is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Get the most recent updates from our site and be updated your self..."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Get the most has text Get the most recent updates from our site and be updated your self...
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Copyright © 2021 All rights reserved"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Copyright © 2021 All rights reserved is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Copyright © 2021 All rights reserved"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Copyright © 2021 All rights reserved has text Copyright © 2021 All rights reserved
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Subscribe
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="success-subscribe"]/div
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text You have been successfully subscribed! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="success-subscribe"]/div
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text You have been successfully subscribed! has text You have been successfully subscribed!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Address Details"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Address Details is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Address Details"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Address Details has text Address Details
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h3[normalize-space()="Your delivery address"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Your delivery address is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h3[normalize-space()="Your delivery address"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Your delivery address has text Your delivery address
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h3[normalize-space()="Your billing address"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Your billing address is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h3[normalize-space()="Your billing address"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Your billing address has text Your billing address
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Review Your Order"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Review Your Order is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Review Your Order"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Review Your Order has text Review Your Order
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Item"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Item is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Item"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Item has text Item
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Description"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Description is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Description"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Description has text Description
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Price"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Price is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Price"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Price has text Price
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Quantity"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Quantity is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Quantity"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Quantity has text Quantity
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Total"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text total is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[normalize-space()="Total"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text total has text Total
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_product"]//img
+INFO     BASE_ELEMENT:base_element.py:29 Checking that image Item image is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_product"]//img
+INFO     BASE_ELEMENT:base_element.py:43 Checking that image Item image has attributesrc get_product_picture/1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_description"]//a
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link Blue Top is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_description"]//a
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link Blue Top has text Blue Top
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_description"]//a
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link Blue Top has attributehref /product_details/1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_description"]//p
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Women > Tops is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_description"]//p
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Women > Tops has text Women > Tops
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_price"]//p
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Rs. 500 is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_price"]//p
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Rs. 500 has text Rs. 500
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_quantity"]/button
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button 1 is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_quantity"]/button
+INFO     BASE_ELEMENT:base_element.py:92 Getting text button 1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_delete"]/a
+INFO     BASE_ELEMENT:base_element.py:64 Checking that button Delete button is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_quantity"]/button
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button 1 has text 1
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_total"]/p
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Rs. 500 is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //td[@class="cart_total"]/p
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Rs. 500 has text Rs. 500
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //tr[2]/td[3]/h4/b
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Total Amount is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //tr[2]/td[3]/h4/b
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Total Amount has text Total Amount
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //tr[2]/td[4]/p
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Rs. 500 is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //tr[2]/td[4]/p
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Rs. 500 has text Rs. 500
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="If you would like to add a comment about your order, please write it in the field below."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text If you would like is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="If you would like to add a comment about your order, please write it in the field below."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text If you would like has text If you would like to add a comment about your order, please write it in the field below.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //textarea[@name="message"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Textarea is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //textarea[@name="message"]
+INFO     INPUT:input.py:15 Filling input Textarea with text Ask finish program low stop. Certain per start begin crime.
+Material service blue discuss decide fine much. Manager phone floor effect. Myself discussion result themselves talk major serious.
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/payment"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link Place Order is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/payment"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link Place Order has text Place Order
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/payment"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link Place Order has attributehref /payment
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[@href="/payment"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking link Place Order
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Subscription"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Subscription is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Subscription"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Subscription has text Subscription
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Your email address is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Your email address has attributeplaceholder Your email address
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     INPUT:input.py:15 Filling input Your email address with text elizabethhaynes@example.net
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Subscribe is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BUTTON:button.py:17 Checking that button Subscribe is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]/i
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-arrow-circle-o-right has class fa fa-arrow-circle-o-right
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Get the most recent updates from our site and be updated your self..."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Get the most is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Get the most recent updates from our site and be updated your self..."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Get the most has text Get the most recent updates from our site and be updated your self...
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Copyright © 2021 All rights reserved"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Copyright © 2021 All rights reserved is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Copyright © 2021 All rights reserved"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Copyright © 2021 All rights reserved has text Copyright © 2021 All rights reserved
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Subscribe
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="success-subscribe"]/div
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text You have been successfully subscribed! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="success-subscribe"]/div
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text You have been successfully subscribed! has text You have been successfully subscribed!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Payment"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Payment is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Payment"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Payment has text Payment
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Name on Card"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Name on Card is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Name on Card"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Name on Card has text Name on Card
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="name-on-card"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Name on Card input is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="name-on-card"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Name on Card input has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="name-on-card"]
+INFO     INPUT:input.py:15 Filling input Name on Card input with text American Express
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Card Number"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Card Number is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Card Number"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Card Number has text Card Number
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="card-number"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Card Number input is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="card-number"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Card Number input has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="card-number"]
+INFO     INPUT:input.py:15 Filling input Card Number input with text 5179356927648774
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="CVC"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text CVC is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="CVC"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text CVC has text CVC
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="cvc"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input CVC input is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="cvc"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input CVC input has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="cvc"]
+INFO     INPUT:input.py:15 Filling input CVC input with text 538
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Expiration"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Expiration is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //label[normalize-space()="Expiration"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Expiration has text Expiration
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="expiry-month"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Month is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="expiry-month"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Month has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="expiry-month"]
+INFO     INPUT:input.py:15 Filling input Month with text 10/26
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="expiry-year"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Year is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="expiry-year"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Year has attributerequired 
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //input[@data-qa="expiry-year"]
+INFO     INPUT:input.py:15 Filling input Year with text 04/35
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="submit"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Pay and Confirm Order is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="submit"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that button Pay and Confirm Order has text Pay and Confirm Order
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="submit"]
+INFO     BUTTON:button.py:17 Checking that button Pay and Confirm Order is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="submit"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Pay and Confirm Order
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Subscription"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Subscription is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //h2[normalize-space()="Subscription"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Subscription has text Subscription
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that input Your email address is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that input Your email address has attributeplaceholder Your email address
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="susbscribe_email"]
+INFO     INPUT:input.py:15 Filling input Your email address with text travis03@example.com
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that button Subscribe is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BUTTON:button.py:17 Checking that button Subscribe is enabled
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]/i
+INFO     BASE_ELEMENT:base_element.py:57 Checking that icon fa fa-arrow-circle-o-right has class fa fa-arrow-circle-o-right
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Get the most recent updates from our site and be updated your self..."]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Get the most is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Get the most recent updates from our site and be updated your self..."]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Get the most has text Get the most recent updates from our site and be updated your self...
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Copyright © 2021 All rights reserved"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Copyright © 2021 All rights reserved is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Copyright © 2021 All rights reserved"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Copyright © 2021 All rights reserved has text Copyright © 2021 All rights reserved
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="subscribe"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking button Subscribe
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="success-subscribe"]/div
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text You have been successfully subscribed! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //*[@id="success-subscribe"]/div
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text You have been successfully subscribed! has text You have been successfully subscribed!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //b[normalize-space()="Order Placed!"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Order placed! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //b[normalize-space()="Order Placed!"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Order placed! has text Order Placed!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Congratulations! Your order has been confirmed!"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that text Congratulations! Your order has been confirmed! is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //p[normalize-space()="Congratulations! Your order has been confirmed!"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that text Congratulations! Your order has been confirmed! has text Congratulations! Your order has been confirmed!
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="Download Invoice"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link Download Invoice is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="Download Invoice"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link Download Invoice has text Download Invoice
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="Download Invoice"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link Download Invoice has attributehref /download_invoice/500
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="Download Invoice"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking link Download Invoice
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="Continue"]
+INFO     BASE_ELEMENT:base_element.py:29 Checking that link Continue is visible
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="Continue"]
+INFO     BASE_ELEMENT:base_element.py:36 Checking that link Continue has text Continue
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="Continue"]
+INFO     BASE_ELEMENT:base_element.py:43 Checking that link Continue has attributehref /
+INFO     BASE_ELEMENT:base_element.py:22 Getting locator with //a[normalize-space()="Continue"]
+INFO     BASE_ELEMENT:base_element.py:50 Clicking link Continue
