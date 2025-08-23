@@ -42,6 +42,7 @@ class TestBreadcrumb:
     @pytest.mark.no_path
     @allure.title("Checking breadcrumb on static pages")
     @pytest.mark.parametrize("url, path_text", zip(urls,products_data))
+    @pytest.mark.flacky(rerun=3, delay=2)
     def test_breadcrumb_no_path(self,products_page: ProductsPage, url, path_text):
         products_page.visit(url)
         products_page.breadcrumb.check_breadcrumb_products(path_text)

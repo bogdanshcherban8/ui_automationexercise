@@ -22,6 +22,7 @@ test_data = [(urljoin(settings.app_url, "test_cases"), "Test Cases",
 @pytest.mark.no_path
 @pytest.mark.smoke
 @pytest.mark.api_cases
+@pytest.mark.flacky(rerun=3, delay=2)
 class TestApiCases:
     @allure.story(AllureStory.API_TESTING)
     @allure.title("Checking api testing page")

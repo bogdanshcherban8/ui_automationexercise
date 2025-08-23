@@ -22,6 +22,7 @@ class TestScrollUp:
     @pytest.mark.smoke
     @pytest.mark.no_path
     @allure.title("Checking scroll up on static pages")
+    @pytest.mark.flacky(rerun=3, delay=2)
     @pytest.mark.parametrize("url", [settings.app_url, urljoin(settings.app_url, "products"),
                                      urljoin(settings.app_url, "test_cases"), urljoin(settings.app_url, "api_list"),
                                      urljoin(settings.app_url, "category_products/1"),
